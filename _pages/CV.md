@@ -6,7 +6,7 @@ nav: true
 ---
 
 
-You can find my complete CV [here](/assets/pdf/cvMTQ).	
+You can find my complete CV [here](https://github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/cvMTQ.pdf).	
 
 #### Research positions:
 
