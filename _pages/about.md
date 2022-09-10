@@ -7,8 +7,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>IQOQI Vienna</p>
-    <p>Vienna, Austria</p>
+    <p>Sorbone Université -- LIP6</p>
+    <p>Paris, France</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
