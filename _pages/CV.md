@@ -8,11 +8,15 @@ nav: true
 
 You can find my complete CV [here](https://github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/cvMTQ.pdf).	
 
-#### Research positions:
+#### Employment:
 
 [comment]: # (This actually is the most platform independent comment)
 
-* **Postdoctoral Researcher:** [IQOQI Vienna](https://www.iqoqi-vienna.at/people/staff/marco-tulio-coelho-quintino), Vienna, Austria (Mar 2021 -- Now) \\
+* **Associate Professor (Maître de Conférences):** [Sorbonne Université](https://sciences.sorbonne-universite.fr/) Paris, France (Sep 2022 -- now) \\
+Member of the [Quantum Information](https://www.lip6.fr/recherche/team_membres.php?acronyme=QI) research team at [LIP6](https://www.lip6.fr/).
+
+
+* **Postdoctoral Researcher:** [IQOQI Vienna](https://www.iqoqi-vienna.at/people/staff/marco-tulio-coelho-quintino), Vienna, Austria (Mar 2021 -- Aug 2022) \\
 In the group of Prof. [Časlav Brukner](https://www.quantumfoundations.org/people.html) \\
 Funding:  [ESQ postdoc fellowship](https://www.oeaw.ac.at/esq/home/esq-postdocs/postdoc-application/current-esq-postdocs/quintino-marco-tulio)
 
