@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Sorbone Université</p>
+    <p>Sorbonne Université</p>
     <p>LIP6</p>
     <p>Paris, France</p>
 
