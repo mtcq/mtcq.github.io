@@ -15,11 +15,6 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<script>
-  document.write(window.location.href)
-  document.write("<br>")
-  document.write(window.location.hostname)
-</script>
 
 I’m Marco Túlio Quintino, Associate Professor (Maître de Conférences) in computer science at [Sorbonne Université](https://sciences.sorbonne-universite.fr/), Paris, France. I'm a member of the [Quantum Information](https://www.lip6.fr/recherche/team_membres.php?acronyme=QI) team at [LIP6](https://www.lip6.fr/), a joint research instute of [Sorbonne Université](https://sciences.sorbonne-universite.fr/) and [CNRS](https://www.cnrs.fr/).
 
