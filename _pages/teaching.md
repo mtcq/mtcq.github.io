@@ -20,6 +20,6 @@ Le contenu des cours sont disponibles sous [Moodle](https://moodle-sciences-22.s
 * [MU5IN550 - Analyse d'algorithmes et génération aléatoire](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=3063): chargé de TD.\\
  [Master d'Informatique - Parcours Science et Technologie du Logiciel (STL)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-stl), M2
 
-* [MU5PYQ03 - QIT: Quantum Information Theory](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2663#section-3): chargé de deux conférences et deux TD.\\
+* [MU5PYQ03 - QIT: Quantum Information Theory](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2663#section-3): chargé de deux conférences et deux TDs.\\
  [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M2
 
