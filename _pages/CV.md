@@ -12,7 +12,7 @@ You can find my complete CV [here](https://github.com/mtcq/mtcq.github.io/raw/ma
 
 [comment]: # (This actually is the most platform independent comment)
 
-* **Associate Professor (Maître de Conférences):** [Sorbonne Université](https://sciences.sorbonne-universite.fr/) Paris, France (Sep 2022 -- now) \\
+* **Associate Professor (Maître de Conférences):** [Sorbonne Université](https://sciences.sorbonne-universite.fr/), Paris, France (Sep 2022 -- now) \\
 Member of the [Quantum Information](https://www.lip6.fr/recherche/team_membres.php?acronyme=QI) research team at [LIP6](https://www.lip6.fr/).
 
 
