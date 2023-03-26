@@ -7,19 +7,27 @@ nav: true
 
 Le contenu des cours sont disponibles sous [Moodle](https://moodle-sciences-22.sorbonne-universite.fr/). 
 
-#### Sep 2022 -- Jan 2023:
+#### Jan 2023 -- Jun 2023:
 
 [comment]: # (This actually is the most platform independent comment)
 
-* [LU2IN005 - Mathématiques Discrètes](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2073): chargé de TD/TP. &nbsp;  [Site de l'UE](https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2022/ue/LU2IN005-2022oct/index.php). \\
+* [LU3IN030 - Introduction à la calculabilité et à la décidabilité](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=3553): chargé de TD/TP (36.5h). &nbsp;  [Site de l'UE](https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2022/ue/LU3IN030-2023fev/). \\
+ [Lincese d'Informatique](https://sciences.sorbonne-universite.fr/formation-sciences/licences/licences-generales-l2-l3/licence-dinformatique), L3. 
+
+* [MU4PY223 - Théorie de Shannon classique et quantique](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=3449): cours (15h) et TD (15h).\\
+ [Master Sciences, Technologies, Santé MENTION PHYSIQUE FONDAMENTALE ET APPLICATIONS)](http://master.physique.sorbonne-universite.fr/fr/m1.html), M1
+
+#### Sep 2022 -- Jan 2023:
+
+* [LU2IN005 - Mathématiques Discrètes](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2073): chargé de TD/TP (36.5h). &nbsp;  [Site de l'UE](https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2022/ue/LU2IN005-2022oct/index.php). \\
  [Lincese d'Informatique](https://sciences.sorbonne-universite.fr/formation-sciences/licences/licences-generales-l2-l3/licence-dinformatique), L2. 
 
-* [MU4INQ01 - Quantum kinematics for computer scientists](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2903): chargé de TD.\\
+* [MU4INQ01 - Quantum kinematics for computer scientists](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2903): cours (2h) et TD (16h).\\
  [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M1
 
-* [MU5IN550 - Analyse d'algorithmes et génération aléatoire](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=3063): chargé de TD.\\
+* [MU5IN550 - Analyse d'algorithmes et génération aléatoire](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=3063): chargé de TD (14h).\\
  [Master d'Informatique - Parcours Science et Technologie du Logiciel (STL)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-stl), M2
 
-* [MU5PYQ03 - QIT: Quantum Information Theory](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2663#section-3): chargé de deux conférences et deux TD.\\
+* [MU5PYQ03 - QIT: Quantum Information Theory](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2663#section-3): cours (6h) et TD (4h).\\
  [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M2
 

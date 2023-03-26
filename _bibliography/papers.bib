@@ -1,3 +1,16 @@
+@article{38,
+	title = {The classical cost of transmitting a qubit},
+	author = {Renner, M.J. and Tavakoli, A.  and Quintino, M.T. },
+	journal = {Phys. Rev. Lett.},
+	volume = {130},
+	pages = {120801},
+	year = {2023},
+	eprint = {2207.02244},
+	doi = {10.1103/PhysRevLett.130.120801},
+      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ38.pdf},
+      abstract = {We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.}
+}
+
 @article{32,
 	title = {Unitary channel discrimination beyond group structures: <br> Advantages of sequential and indefinite-causal-order strategies},
 	author = {Bavaresco, J.  and Murao, M.  and Quintino, M.T. },
@@ -11,7 +24,37 @@
       eprint={2105.13369},
       abstract = {For minimum-error channel discrimination tasks that involve only unitary channels, we show that sequential strategies may outperform parallel ones. Additionally, we show that general strategies that involve indefinite causal order are also advantageous for this task. However, for the task of discriminating a uniformly distributed set of unitary channels that forms a group, we show that parallel strategies are indeed optimal, even when compared to general strategies. We also show that strategies based on the quantum switch cannot outperform sequential strategies in the discrimination of unitary channels. Finally, we derive an ultimate upper bound for the maximal probability of successfully discriminating any set of unitary channels with any number of copies, for the most general strategies that are suitable for channel discrimination. Our bound is tight since it is saturated by sets of unitary channels forming a group k-design.}
 }
+@ARTICLE{41,
+       author = {{Str{\"o}mberg}, Teodor and {Schiansky}, Peter and {Peterson}, Robert W. and {T{\'u}lio Quintino}, Marco and {Walther}, Philip},
+        title = "{Demonstration of a quantum SWITCH in a Sagnac configuration}",
+      journal = {arXiv e-prints},
+     year = {2022},
+       eprint = {2211.12540},
+ primaryClass = {quant-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv221112540S},
+      abstract = { The quantum SWITCH is an example of a process with an indefinite causal structure, and has attracted attention for its ability to outperform causally ordered computations within the quantum circuit model. To date, realisations of the quantum SWITCH have relied on optical interferometers susceptible to minute path length fluctuations, complicating their design, limiting their performance and posing an obstacle to extending the quantum SWITCH to multiple parties. In this Letter we overcome these limitations by demonstrating an intrinsically stable quantum SWITCH utilizing a common-path geometry facilitated by a novel reciprocal and universal SU(2) polarization gadget. We certify our design by successfully performing a channel discrimination task with near unity success probability. }
+}
 
+@ARTICLE{40,
+       author = {{Str{\"o}mberg}, Teodor and {Schiansky}, Peter and {T{\'u}lio Quintino}, Marco and {Antesberger}, Michael and {Rozema}, Lee and {Agresti}, Iris and {Brukner}, {\v{C}}aslav and {Walther}, Philip},
+        title = "{Experimental superposition of time directions}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics},
+         year = 2022,
+       eprint = {2211.01283},
+	abstract ={In the macroscopic world, time is intrinsically asymmetric, flowing in a specific direction, from past to future. However, the same is not necessarily true for quantum systems, as some quantum processes produce valid quantum evolutions under time reversal. Supposing that such processes can be probed in both time directions, we can also consider quantum processes probed in a coherent superposition of forwards and backwards time directions. This yields a broader class of quantum processes than the ones considered so far in the literature, including those with indefinite causal order. In this work, we demonstrate for the first time an operation belonging to this new class: the quantum time flip. Using a photonic realisation of this operation, we apply it to a game formulated as a discrimination task between two sets of operators. This game not only serves as a witness of an indefinite time direction, but also allows for a computational advantage over strategies using a fixed time direction, and even those with an indefinite causal order.}
+}
+
+
+
+@article{39,
+	title = {The minimal communication cost for simulating entangled qubits},
+	author = {Renner, M.J. and Quintino, M.T. },
+	journal = {arXiv e-prints},
+      eprint={2207.12457},
+      	year = {2022},
+      abstract = { We analyse the amount of classical communication required to reproduce the statistics of local projective measurements on a general pair of entangled qubits. We construct a classical protocol that perfectly simulates local projective measurements on all entangled qubit pairs by communicating one classical trit. Additionally, when 2p(1−p)2p−1log(p1−p)+2(1−p)≤1, approximately 0.835≤p≤1, we present a classical protocol that requires only a single bit of communication. The latter model even allows a perfect classical simulation with an average communication cost that approaches zero in the limit where the degree of entanglement approaches zero (p→1). This proves that the communication cost for simulating weakly entangled qubit pairs is strictly smaller than for the maximally entangled one.}
+}
 @article{35,
   title = {Deterministic transformations between unitary operations: <br> Exponential advantage with adaptive quantum circuits and the power of indefinite causality},
   author = {Quintino, M.T. and Ebler, D.},
@@ -624,7 +667,7 @@ Finally, we relate the non-contextual polytope of single-party correlation inequ
       author={Q. Dong and M.T. Quintino and A. Soeda and M. Murao},
       year={2021},
       eprint={2106.00034},
-      journal={arXiv preprint},
+      journal = {arXiv e-prints},
       volume = {quant-ph},
       pages = {2106.00034},
       abstract = {The quantum switch is a physical process that creates a coherent control between different unitary operations which is often described as a process which transforms a pair of unitary operations (U1,U2) into a controlled unitary operation that coherently applies them in different orders as |0⟩⟨0|⊗U1U2+|1⟩⟨1|⊗U2U1. This description, however, does not directly define its action on non-unitary operations. The action of quantum switch on non-unitary operations is then chosen to be a "natural" extension of its action on unitary operation. Since, in general, the action of a process on non-unitary operations is not uniquely determined by its action on only unitary operations, in principle, there could be a set of inequivalent extensions of quantum switch for non-unitary operations. In this paper, we prove that there is a unique way to extend the actions of quantum switch to non-unitary operations. In other words, contrary to the general case, the action of quantum switch on non-unitary operations is completely determined by its action on unitary operations. We also discuss the general problem of when the complete description of a quantum process is uniquely determined by its action on unitary operations and identify a set of single-slot processes which are completely defined by their action on unitary operations.}
@@ -632,27 +675,26 @@ Finally, we relate the non-contextual polytope of single-party correlation inequ
 
 
 
-@article{36,
-      title={Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios}, 
-      author={E.-C. Boghiu and F. Hirsch and P.-S. Lin and M.T. Quintino and J. Bowles},
-      year={2021},
-      eprint={2111.06358},
-      journal={arXiv preprint},
-      volume = {quant-ph},
-      pages = {2111.06358},
-      abstract = {It has recently been shown that by broadcasting the subsystems of a bipartite quantum state, one can activate Bell nonlocality and significantly improve noise tolerance bounds for device-independent entanglement certification. In this work we strengthen these results and explore new aspects of this phenomenon. First, we prove new results related to the activation of Bell nonlocality. We construct Bell inequalities tailored to the broadcast scenario, and show how broadcasting can lead to even stronger notions of Bell nonlocality activation. In particular, we exploit these ideas to show that bipartite states admitting a local hidden-variable model for general measurements can lead to genuine tripartite nonlocal correlations. We then study device-independent entanglement certification in the broadcast scenario, and show through semidefinite programming techniques that device-independent entanglement certification is possible for the two-qubit Werner state in essentially the entire range of entanglement. Finally, we extend the concept of EPR steering to the broadcast scenario, and present novel examples of activation of the two-qubit isotropic state. Our results pave the way for broadcast-based device-dependent and semi-device-independent protocols.}
-}
 @ARTICLE{37,
        author = {{Ebler}, D. and {Horodecki}, M. and {Marciniak}, M. and {M{\l}ynik}, T. and {Quintino}, M.T and {Studzi{\'n}ski}, M.},
         title = "{Optimal universal quantum circuits for unitary complex conjugation}",
       journal = {arXiv e-prints},
-     keywords = {Quantum Physics},
+      volume = {quant-ph},
          year = 2022,
         month = May,
        eprint = {2206.00107},
        abstract = {Let Ud be a unitary operator representing an arbitrary d-dimensional unitary quantum operation. This work presents optimal quantum circuits for transforming a number k of calls of Ud into its complex conjugate Ud¯. Our circuits admit a parallel implementation and are proven to be optimal for any k and d with an average fidelity of ⟨F⟩=(k+1)/(d(d−k)). Optimality is shown for average fidelity, robustness to noise, and other standard figures of merit. This extends previous works which considered the scenario of a single call (k=1) of the operation Ud, and the special case of k=d−1 calls. We then show that our results encompass optimal transformations from k calls of Ud to f(Ud) for any arbitrary homomorphism f from the group of d-dimensional unitary operators to itself, since complex conjugation is the only non-trivial automorphisms on the group of unitary operators. Finally, we apply our optimal complex conjugation implementation to design a probabilistic circuit for reversing arbitrary quantum evolutions. }
 }
 
+@ARTICLE{36,
+       author = {Boghiu, E.C. and Hirsch, F. and Lin, P.S. and Quintino, M.T.Q and Bowles J.},
+        title = "{Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios}",
+      journal = {arXiv e-prints},
+      volume = {quant-ph},
+         year = 2021,
+       eprint = {2111.06358},
+       abstract = {It has recently been shown that by broadcasting the subsystems of a bipartite quantum state, one can activate Bell nonlocality and significantly improve noise tolerance bounds for device-independent entanglement certification. In this work we strengthen these results and explore new aspects of this phenomenon. First, we prove new results related to the activation of Bell nonlocality. We construct Bell inequalities tailored to the broadcast scenario, and show how broadcasting can lead to even stronger notions of Bell nonlocality activation. In particular, we exploit these ideas to show that bipartite states admitting a local hidden-variable model for general measurements can lead to genuine tripartite nonlocal correlations. We then study device-independent entanglement certification in the broadcast scenario, and show through semidefinite programming techniques that device-independent entanglement certification is possible for the two-qubit Werner state in essentially the entire range of entanglement. Finally, we extend the concept of EPR steering to the broadcast scenario, and present novel examples of activation of the two-qubit isotropic state. Our results pave the way for broadcast-based device-dependent and semi-device-independent protocols.}
+}
 
 
 @article{quantum_views1,
