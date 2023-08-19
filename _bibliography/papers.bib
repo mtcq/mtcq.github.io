@@ -12,30 +12,18 @@
 }
 @ARTICLE{37,
        author = {{Ebler}, D. and {Horodecki}, M. and {Marciniak}, M. and {M{\l}ynik}, T. and {Quintino}, M.T and {Studzi{\'n}ski}, M.},
-        title = "{Optimal universal quantum circuits for unitary complex conjugation}",
-      journal = {IEEE Trans. Inf.},
-      volume = {},
-         year = 2023,
-         doi = {10.1109/TIT.2023.3263771},
-        month = May,
-       eprint = {2206.00107},
-       abstract = {Let Ud be a unitary operator representing an arbitrary d-dimensional unitary quantum operation. This work presents optimal quantum circuits for transforming a number k of calls of Ud into its complex conjugate Ud¯. Our circuits admit a parallel implementation and are proven to be optimal for any k and d with an average fidelity of ⟨F⟩=(k+1)/(d(d−k)). Optimality is shown for average fidelity, robustness to noise, and other standard figures of merit. This extends previous works which considered the scenario of a single call (k=1) of the operation Ud, and the special case of k=d−1 calls. We then show that our results encompass optimal transformations from k calls of Ud to f(Ud) for any arbitrary homomorphism f from the group of d-dimensional unitary operators to itself, since complex conjugation is the only non-trivial automorphisms on the group of unitary operators. Finally, we apply our optimal complex conjugation implementation to design a probabilistic circuit for reversing arbitrary quantum evolutions. }
+  journal={IEEE Trans. Inf. Theory}, 
+  title={Optimal Universal Quantum Circuits for Unitary Complex Conjugation}, 
+  year={2023},
+  volume={69},
+  number={8},
+  pages={5069-5082},
+  doi={10.1109/TIT.2023.3263771},
+  eprint = {2206.00107},
+  abstract = {Let Ud be a unitary operator representing an arbitrary d-dimensional unitary quantum operation. This work presents optimal quantum circuits for transforming a number k of calls of Ud into its complex conjugate Ud¯. Our circuits admit a parallel implementation and are proven to be optimal for any k and d with an average fidelity of ⟨F⟩=(k+1)/(d(d−k)). Optimality is shown for average fidelity, robustness to noise, and other standard figures of merit. This extends previous works which considered the scenario of a single call (k=1) of the operation Ud, and the special case of k=d−1 calls. We then show that our results encompass optimal transformations from k calls of Ud to f(Ud) for any arbitrary homomorphism f from the group of d-dimensional unitary operators to itself, since complex conjugation is the only non-trivial automorphisms on the group of unitary operators. Finally, we apply our optimal complex conjugation implementation to design a probabilistic circuit for reversing arbitrary quantum evolutions. }
 }
 
-@ARTICLE{36,
-       author = {Boghiu, E.C. and Hirsch, F. and Lin, P.S. and Quintino, M.T.Q and Bowles J.},
-        title = "{Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios}",
-	journal={SciPost Phys. Core},
-	volume={6},
-	pages={028},
-	year={2023},
-	publisher={SciPost},
-	doi={10.21468/SciPostPhysCore.6.2.028},
-         year = 2023,
-       eprint = {2111.06358},
-	mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ36.pdf},
-       abstract = {It has recently been shown that by broadcasting the subsystems of a bipartite quantum state, one can activate Bell nonlocality and significantly improve noise tolerance bounds for device-independent entanglement certification. In this work we strengthen these results and explore new aspects of this phenomenon. First, we prove new results related to the activation of Bell nonlocality. We construct Bell inequalities tailored to the broadcast scenario, and show how broadcasting can lead to even stronger notions of Bell nonlocality activation. In particular, we exploit these ideas to show that bipartite states admitting a local hidden-variable model for general measurements can lead to genuine tripartite nonlocal correlations. We then study device-independent entanglement certification in the broadcast scenario, and show through semidefinite programming techniques that device-independent entanglement certification is possible for the two-qubit Werner state in essentially the entire range of entanglement. Finally, we extend the concept of EPR steering to the broadcast scenario, and present novel examples of activation of the two-qubit isotropic state. Our results pave the way for broadcast-based device-dependent and semi-device-independent protocols.}
-}
+
 
 @article{32,
 	title = {Unitary channel discrimination beyond group structures: <br> Advantages of sequential and indefinite-causal-order strategies},
@@ -53,11 +41,17 @@
 @ARTICLE{41,
        author = {{Str{\"o}mberg}, Teodor and {Schiansky}, Peter and {Peterson}, Robert W. and {T{\'u}lio Quintino}, Marco and {Walther}, Philip},
         title = "{Demonstration of a quantum SWITCH in a Sagnac configuration}",
-      journal = {arXiv e-prints},
-     year = {2022},
+        mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ41.pdf},
+  volume = {131},
+  issue = {6},
+  pages = {060803},
+   ISSN={1079-7114},
+   DOI={10.1103/PhysRevLett.131.060803},
+  journal = {Phys. Rev. Lett.},
+   publisher={American Physical Society (APS)},
+     year = {2023},
        eprint = {2211.12540},
  primaryClass = {quant-ph},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv221112540S},
       abstract = { The quantum SWITCH is an example of a process with an indefinite causal structure, and has attracted attention for its ability to outperform causally ordered computations within the quantum circuit model. To date, realisations of the quantum SWITCH have relied on optical interferometers susceptible to minute path length fluctuations, complicating their design, limiting their performance and posing an obstacle to extending the quantum SWITCH to multiple parties. In this Letter we overcome these limitations by demonstrating an intrinsically stable quantum SWITCH utilizing a common-path geometry facilitated by a novel reciprocal and universal SU(2) polarization gadget. We certify our design by successfully performing a channel discrimination task with near unity success probability. }
 }
 
@@ -81,6 +75,84 @@
       	year = {2022},
       abstract = { We analyse the amount of classical communication required to reproduce the statistics of local projective measurements on a general pair of entangled qubits. We construct a classical protocol that perfectly simulates local projective measurements on all entangled qubit pairs by communicating one classical trit. Additionally, when 2p(1−p)2p−1log(p1−p)+2(1−p)≤1, approximately 0.835≤p≤1, we present a classical protocol that requires only a single bit of communication. The latter model even allows a perfect classical simulation with an average communication cost that approaches zero in the limit where the degree of entanglement approaches zero (p→1). This proves that the communication cost for simulating weakly entangled qubit pairs is strictly smaller than for the maximally entangled one.}
 }
+
+@ARTICLE{36,
+       author = {Boghiu, E.C. and Hirsch, F. and Lin, P.S. and Quintino, M.T.Q and Bowles J.},
+        title = "{Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios}",
+	journal={SciPost Phys. Core},
+	volume={6},
+	pages={028},
+	year={2023},
+	publisher={SciPost},
+	doi={10.21468/SciPostPhysCore.6.2.028},
+         year = 2023,
+       eprint = {2111.06358},
+	mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ36.pdf},
+       abstract = {It has recently been shown that by broadcasting the subsystems of a bipartite quantum state, one can activate Bell nonlocality and significantly improve noise tolerance bounds for device-independent entanglement certification. In this work we strengthen these results and explore new aspects of this phenomenon. First, we prove new results related to the activation of Bell nonlocality. We construct Bell inequalities tailored to the broadcast scenario, and show how broadcasting can lead to even stronger notions of Bell nonlocality activation. In particular, we exploit these ideas to show that bipartite states admitting a local hidden-variable model for general measurements can lead to genuine tripartite nonlocal correlations. We then study device-independent entanglement certification in the broadcast scenario, and show through semidefinite programming techniques that device-independent entanglement certification is possible for the two-qubit Werner state in essentially the entire range of entanglement. Finally, we extend the concept of EPR steering to the broadcast scenario, and present novel examples of activation of the two-qubit isotropic state. Our results pave the way for broadcast-based device-dependent and semi-device-independent protocols.}
+}
+@ARTICLE{45,
+       author = {{Taranto}, Philip and {T{\'u}lio Quintino}, Marco and {Murao}, Mio and {Milz}, Simon},
+        title = "{Characterising the Hierarchy of Multi-time Quantum Processes with Classical Memory}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics},
+         year = 2023,
+        month = jul,
+archivePrefix = {arXiv},
+       eprint = {2307.11905},
+ primaryClass = {quant-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230711905T},
+      abstract = {Memory is the fundamental form of temporal complexity: when present but uncontrollable, it manifests as non-Markovian noise; conversely, if controllable, memory can be a powerful resource for information processing. Memory effects arise from/are transmitted via interactions between a system and its environment; as such, they can be either classical or quantum in nature. From a practical standpoint, quantum processes with classical memory promise near-term applicability: they are more powerful than their memoryless counterpart, yet at the same time can be controlled over significant timeframes without being spoiled by decoherence. However, despite practical and foundational value, apart from simple two-time scenarios, the distinction between quantum and classical memory remains unexplored. We first analyse various physically-motivated candidates regarding a suitable definition for classical memory that lead to remarkably distinct phenomena in the multi-time setting. Subsequently, we systematically characterise the hierarchy of multi-time memory effects in quantum mechanics, many levels of which collapse in the two-time setting, thereby making our results genuinely multi-time phenomena. }
+}
+
+@ARTICLE{44,
+       author = {{Cabello}, Ad{\'a}n and {T{\'u}lio Quintino}, Marco and {Kleinmann}, Matthias},
+        title = "{Logical possibilities for physics after MIP*=RE}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics},
+         year = 2023,
+        month = jul,
+archivePrefix = {arXiv},
+       eprint = {2307.02920},
+ primaryClass = {quant-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230702920C},
+      abstract = {MIP*=RE implies that C_{qa} (the closure of the set of tensor product correlations) and C_{qc} (the set of commuting correlations) can be separated by a hyperplane (i.e., a Bell-like inequality) and that there are correlations produced by commuting measurements (a finite number of them and with a finite number of outcomes) on an infinite-dimensional quantum system which cannot be approximated by sequences of finite-dimensional tensor product correlations. We point out that there are four logically possible universes after this result. Each possibility is interesting because it reveals either limitations in accepted physical theories or opportunities to test crucial aspects of nature. We list some open problems that may help us to design a road map to learn in which of these universes we are. }
+}
+
+
+
+@ARTICLE{43,
+       author = {{Antesberger}, Michael and {T{\'u}lio Quintino}, Marco and {Walther}, Philip and {Rozema}, Lee A.},
+        title = "{Higher-order Process Matrix Tomography of a passively-stable Quantum SWITCH}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics},
+         year = 2023,
+        month = may,
+archivePrefix = {arXiv},
+       eprint = {2305.19386},
+ primaryClass = {quant-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230519386A},
+      abstract = {The field of indefinite causal order (ICO) has seen a recent surge in interest. Much of this research has focused on the quantum SWITCH, wherein multiple parties act in a superposition of different orders in a manner transcending the quantum circuit model. This results in a new resource for quantum protocols, and is exciting for its relation to issues in foundational physics. The quantum SWITCH is also an example of a higher-order quantum operation, in that it not only transforms quantum states, but also other quantum operations. To date, no higher-order quantum operation has been completely experimentally characterized. Indeed, past work on the quantum SWITCH has confirmed its ICO by measuring causal witnesses or demonstrating resource advantages, but the complete process matrix has only been described theoretically. Here, we perform higher-order quantum process tomography. However, doing so requires exponentially many measurements with a scaling worse than standard process tomography. We overcome this challenge by creating a new passively-stable fiber-based quantum SWITCH using active optical elements to deterministically generate and manipulate time-bin encoded qubits. Moreover, our new architecture for the quantum SWITCH can be readily scaled to multiple parties. By reconstructing the process matrix, we estimate its fidelity and tailor different causal witnesses directly for our experiment. To achieve this, we measure a set of tomographically complete settings, that also spans the input operation space. Our tomography protocol allows for the characterization and debugging of higher-order quantum operations with and without an ICO, while our experimental time-bin techniques could enable the creation of a new realm of higher-order quantum operations with an ICO. }
+}
+
+
+
+@ARTICLE{42,
+       author = {{Milz}, Simon and {T{\'u}lio Quintino}, Marco},
+        title = "{Transformations between arbitrary (quantum) objects and the emergence of indefinite causality}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics},
+         year = 2023,
+        month = may,
+          doi = {10.48550/arXiv.2305.01247},
+archivePrefix = {arXiv},
+ primaryClass = {quant-ph},
+        eprint = {2305.01247},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230501247M},
+      abstract = {Many fundamental and key objects in quantum mechanics are linear mappings between particular affine/linear spaces. This structure includes basic quantum elements such as states, measurements, channels, instruments, non-signalling channels and channels with memory, and also higher-order operations such as superchannels, quantum combs, n-time processes, testers, and process matrices which may not respect a definite causal order. Deducing and characterising their structural properties in terms of linear and semidefinite constraints is not only of foundational relevance, but plays an important role in enabling the numerical optimization over sets of quantum objects and allowing simpler connections between different concepts and objects. Here, we provide a general framework to deduce these properties in a direct and easy to use way. Additionally, while primarily guided by practical quantum mechanical considerations, we extend our analysis to mappings between \textit{general} linear/affine spaces and derive their properties, opening the possibility for analysing sets which are not explicitly forbidden by quantum theory, but are still not much explored. Together, these results yield versatile and readily applicable tools for all tasks that require the characterization of linear transformations, in quantum mechanics and beyond. As an application of our methods, we discuss the emergence of indefinite causality in higher-order quantum transformation.}
+}
+
+
+
 @article{35,
   title = {Deterministic transformations between unitary operations: <br> Exponential advantage with adaptive quantum circuits and the power of indefinite causality},
   author = {Quintino, M.T. and Ebler, D.},
