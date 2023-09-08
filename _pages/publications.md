@@ -9,12 +9,13 @@ nav: true
 
 [comment]: # (List of my scientific publications.)
 
-All my scientific papers are publicly available at [arXiv](https://arxiv.org/a/quintino_m_1.html). Here, you also find the peer-reviewed journal version.
+All my scientific papers are publicly available at [arXiv](https://arxiv.org/a/quintino_m_1.html) and some statistics may be found at [Google Scholar](https://scholar.google.com/citations?user=9S-Jrs4AAAAJ). <br>
+Here, you also download the journal version of my published papers.
 
-- 38 peer-reviewed publications, including 12 PRLs, 1 Nat. Comm., 1 J. Math. Phys, 1 IEEE Trans. Inf. Theory, and 8 Quantum.
-- 7 preprints under review. 
-- More than 70 different co-authors.
-- [Google Scholar](https://scholar.google.com/citations?user=9S-Jrs4AAAAJ) counts over 2000 citations with 7 papers with more than 100 citations.
+[comment]: # - 38 peer-reviewed publications, including 12 PRLs, 1 Nat. Comm., 1 J. Math. Phys, 1 IEEE Trans. Inf. Theory, and 8 Quantum.
+[comment]: # - 7 preprints under review. 
+[comment]: # - More than 70 different co-authors.
+[comment]: # - [Google Scholar](https://scholar.google.com/citations?user=9S-Jrs4AAAAJ) counts over 2000 citations with 7 papers with more than 100 citations.
 
 
 <div class="publications">
