@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <br>
+description: #<p><small> Associate Professor |  <a href="https://sciences.sorbonne-universite.fr/">Sorbonne Université</a> | <a href="https://www.lip6.fr/recherche/team_membres.php?acronyme=QI">LIP6, QI team</a> </small></p> 
 profile:
   align: right
   image: prof_pic.jpg
@@ -23,4 +23,4 @@ My main research is in the field of quantum information and quantum computation,
 
 All my scientific papers are available at [arXiv](https://arxiv.org/a/quintino_m_1.html) and some statistics involving them can be found at my [Google Scholar](https://scholar.google.com/citations?user=9S-Jrs4AAAAJ&hl). Also, I use <a href="https://github.com/mtcq">GitHub</a> to share relevant computational code I develop for my research.
 
-Feel free to contact via Gmail [mtcq.mm (at) gmail.com](mailto:mtcq.mm@gmail.com), LIP6 email [Marco.Quintino (at) lip6.fr](mailto:Marco.Quintino@lip6.fr), or Sorbonne university email [marco.coelho_quintino (at) sorbonne-universite.fr](mailto:marco.coelho_quintino@sorbonne-universite.fr).
+Feel free to contact via Gmail [mtcq.mm@gmail.com](mailto:mtcq.mm@gmail.com), LIP6 email [Marco.Quintino@lip6.fr](mailto:Marco.Quintino@lip6.fr), or Sorbonne university email [marco.coelho_quintino@sorbonne-universite.fr](mailto:marco.coelho_quintino@sorbonne-universite.fr).
