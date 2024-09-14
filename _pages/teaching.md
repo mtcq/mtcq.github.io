@@ -5,7 +5,7 @@ title: teaching
 nav: true
 ---
 
-Le contenu des cours sont disponibles sous Moodle. 
+
 
 #### Sep 2024 -- Jan 2025:
 
@@ -65,3 +65,6 @@ Le contenu des cours sont disponibles sous Moodle.
 * [MU5PYQ03 - QIT: Quantum Information Theory](https://moodle-sciences-22.sorbonne-universite.fr/course/view.php?id=2663#section-3): cours (6h) et TD (4h).\\
  [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M2
 
+----------------------------
+
+Teaching activities before I joined Sorbonne University can be found in my [detailed CV](/assets/pdf/cvMTQ.pdf).	
