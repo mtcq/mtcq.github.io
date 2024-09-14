@@ -7,6 +7,18 @@ nav: true
 
 Le contenu des cours sont disponibles sous Moodle. 
 
+#### Sep 2024 -- Jan 2025:
+
+* [LU2IN005 - Mathématiques Discrètes](https://moodle-sciences-24.sorbonne-universite.fr/course/view.php?id=2283): chargé de TD/TP (36.5h). &nbsp;  [Site de l'UE](https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2024/ue/LU2IN005-2024oct/index.php). \\
+ [Lincese d'Informatique](https://sciences.sorbonne-universite.fr/formation-sciences/licences/licences-generales-l2-l3/licence-dinformatique), L2. 
+
+* [MU4INQ05 - Quantum circuits and logic gates](https://moodle-sciences-24.sorbonne-universite.fr/course/view.php?id=2523): cours (10h) et TD (8h).\\
+ [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M1
+
+* [MU5PYQ03 - QIT: Quantum Information Theory](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ): cours (4h) et TD (2h).\\
+ [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M2
+
+
 #### Jan 2024 -- Jun 2024:
 
 * [LU3IN030 - Introduction à la calculabilité et à la décidabilité](https://moodle-sciences-23.sorbonne-universite.fr/course/view.php?id=4031): chargé de TD/TP (36.5h). &nbsp;  [Site de l'UE](https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2023/ue/LU3IN030-2024fev/organisation.php). \\
