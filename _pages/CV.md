@@ -34,8 +34,14 @@ Funding:  [JSPS postdoctoral fellowship](https://www.jsps.go.jp/english/e-fellow
 
 #### Education:
 
+
 <ul style="list-style: none;">
 <li markdown="1"> 
+
+<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+**Habilitation in Computer Science [HDR]**, [Sorbonne Université](https://www.sorbonne-universite.fr), Paris, France, (Jan 2025) \\
+Habilitation Thesis: [Quantum information processing via higher-order operations](/assets/pdf/HDR_MTQ_final_version.pdf)	 
+
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
 **PhD in Physics**,  [Université de Genève](https://www.unige.ch/), Geneva, Switzerland, (Oct 2012 -- Sep 2016) \\
 PhD Thesis: [Quantum Entanglement and Measurement Incompatibility as Resources for Nonlocality](https://archive-ouverte.unige.ch/unige:88093) \\
