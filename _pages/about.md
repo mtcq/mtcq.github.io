@@ -5,7 +5,7 @@ permalink: /
 description: #<p><small> Associate Professor |  <a href="https://sciences.sorbonne-universite.fr/">Sorbonne Université</a> | <a href="https://www.lip6.fr/recherche/team_membres.php?acronyme=QI">LIP6, QI team</a> </small></p> 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mtq_pic.jpg
   address: >
     <p>Sorbonne University</p>
     <p>LIP6</p>
