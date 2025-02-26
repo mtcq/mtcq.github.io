@@ -12,7 +12,7 @@ You can find my complete CV [here](/assets/pdf/cvMTQ.pdf).
 
 [comment]: # (This actually is the most platform independent comment)
 
-* **Associate Professor (Maître de Conférences):** [Sorbonne Université](https://sciences.sorbonne-universite.fr/), Paris, France (Sep 2022 -- now) \\
+* **Associate Professor (Maître de Conférences):** [Sorbonne University](https://sciences.sorbonne-universite.fr/), Paris, France (Sep 2022 -- now) \\
 Member of the [Quantum Information](https://www.lip6.fr/recherche/team_membres.php?acronyme=QI) research team at [LIP6](https://www.lip6.fr/).
 
 
@@ -20,7 +20,7 @@ Member of the [Quantum Information](https://www.lip6.fr/recherche/team_membres.p
 In the group of Prof. [Časlav Brukner](https://www.quantumfoundations.org/people.html) \\
 Funding:  [ESQ postdoc fellowship](https://www.oeaw.ac.at/esq/home/esq-postdocs/postdoc-application/current-esq-postdocs/quintino-marco-tulio)
 
-* **Postdoctoral Researcher:** [The University of Vienna](https://www.univie.ac.at/), Vienna, Austria (Jun 2020 -- Feb 2021)\\
+* **Postdoctoral Researcher:** [University of Vienna](https://www.univie.ac.at/), Vienna, Austria (Jun 2020 -- Feb 2021)\\
 In the group of Prof. [Časlav Brukner](https://www.quantumfoundations.org/people.html) \\
 Funding:  Austrian Science Fund (FWF) through the [SFB project BeyondC](https://www.beyondc.at)
 
@@ -39,11 +39,11 @@ Funding:  [JSPS postdoctoral fellowship](https://www.jsps.go.jp/english/e-fellow
 <li markdown="1"> 
 
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-**Habilitation in Computer Science [HDR]**, [Sorbonne Université](https://www.sorbonne-universite.fr), Paris, France, (Jan 2025) \\
+**Habilitation in Computer Science [HDR]**, [Sorbonne University](https://www.sorbonne-universite.fr), Paris, France, (Jan 2025) \\
 Habilitation Thesis: [Quantum information processing via higher-order operations](/assets/pdf/HDR_MTQ_final_version.pdf)	 
 
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-**PhD in Physics**,  [Université de Genève](https://www.unige.ch/), Geneva, Switzerland, (Oct 2012 -- Sep 2016) \\
+**PhD in Physics**,  [University of Geneva](https://www.unige.ch/), Geneva, Switzerland, (Oct 2012 -- Sep 2016) \\
 PhD Thesis: [Quantum Entanglement and Measurement Incompatibility as Resources for Nonlocality](https://archive-ouverte.unige.ch/unige:88093) \\
 Supervisor: [Nicolas Brunner](https://www.unige.ch/gap/qic/theory/team/nicolas-brunner) \\
 Funding: [SNF, Switerland](https://www.snf.ch/)

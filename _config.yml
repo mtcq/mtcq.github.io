@@ -1,3 +1,5 @@
+# MTQ: I have commented out everything related to imagemagick, since this was leading to a bug with the images in the smartphone version of the website  
+
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
