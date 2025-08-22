@@ -1,14 +1,59 @@
-@ARTICLE{51,
-       author = {{Bavaresco}, J. and {Yoshida}, S. and {Odake}, T. and {Kristj{\'a}nsson}, H. and {Taranto}, P. and {Murao}, M. and {Quintino}, M.T},
-        title = "{Can the quantum switch be deterministically simulated?}",
+@article{57,
+      title={Strict hierarchy between $n$-wise measurement simulability, compatibility structures, and multi-copy compatibility}, 
+      author={L. Tendick and C. Budroni and M.T. Quintino},
+      year={2025},
+      eprint={2506.21223},
       journal = {arXiv e-prints},
-     keywords = {Quantum Physics},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      abstract = {The incompatibility of quantum measurements, i.e. the fact that certain observable quantities cannot be measured jointly is widely regarded as a distinctive quantum feature with important implications for the foundations and the applications of quantum information theory. While the standard incompatibility of multiple measurements has been the focus of attention since the inception of quantum theory, its generalizations, such as measurement simulability,  -wise incompatibility, and mulit-copy incompatibility have only been proposed recently. Here, we point out that all these generalizations are differing notions of the question of how many measurements are genuinely contained in a measurement device. We then show, that all notions do differ not only in their operational meaning but also mathematically in the set of measurement assemblages they describe. We then fully resolve the relations between these different generalizations, by showing a strict hierarchy between these notions. Hence, we provide a general framework for generalized measurement incompatibility. Finally, we consider the implications our results have for recent works using these different notions.}
+}
+
+@article{56,
+      title={Measurement incompatibility and quantum steering via linear programming}, 
+      author={Lucas E. A. Porto and S. Designolle and S. Pokutta and M.T. Quintino},
+      year={2025},
+      eprint={2506.03045},
+      archivePrefix={arXiv},
+      journal = {arXiv e-prints},
+      primaryClass={quant-ph},
+      abstract = {The problem of deciding whether a set of quantum measurements is jointly measurable is known to be equivalent to determining whether a quantum assemblage is unsteerable. This problem can be formulated as a semidefinite program (SDP). However, the number of variables and constraints in such a formulation grows exponentially with the number of measurements, rendering it intractable for large measurement sets. In this work, we circumvent this problem by transforming the SDP into a hierarchy of linear programs that compute upper and lower bounds on the incompatibility robustness with a complexity that grows polynomially in the number of measurements. The hierarchy is guaranteed to converge and it can be applied to arbitrary measurements -- including non-projective POVMs -- in arbitrary dimensions. While convergence becomes impractical in high dimensions, in the case of qubits our method reliably provides accurate upper and lower bounds for the incompatibility robustness of sets with several hundred measurements in a short time using a standard laptop. We also apply our methods to qutrits, obtaining non-trivial upper and lower bounds in scenarios that are otherwise intractable using the standard SDP approach. Finally, we show how our methods can be used to construct local hidden state models for states, or conversely, to certify that a given state exhibits steering; for two-qubit quantum states, our approach is comparable to, and in some cases outperforms, the current best methods.}
+}
+
+@article{55,
+  selected={true},
+      title={Higher-Order Quantum Operations}, 
+      author={P. Taranto and S. Milz and M. Murao and M.T. Quintino and K. Modi},
+      year={2025},
+      eprint={2503.09693},
+      archivePrefix={arXiv},
+      journal = {arXiv e-prints},
+      primaryClass={quant-ph},
+      abstract = {An operational description of quantum phenomena concerns developing models that describe experimentally observed behaviour.  quantum operations that transform quantum operations are fundamental to modern quantum theory, extending beyond basic state preparations, evolutions, and measurements described by the Born rule. These operations naturally emerge in quantum circuit architectures, correlated open dynamics, and investigations of quantum causality, to name but a few fields of application. This Review Article provides both a pedagogical introduction to the framework of higher-order quantum operations and a comprehensive survey of current literature, illustrated through physical examples. We conclude by identifying open problems and future research directions in this rapidly evolving field.}
+}
+
+@article{54,
+      title={Experimental quantum randomness enhanced by a quantum network}, 
+      author={E. Polino and L. Villegas-Aguilar and D. Poderini and N. Walk and F. Ghafari and M.T. Quintino and A. Lyasota and S. Rogge and R. Chaves and G. J. Pryde and E. G. Cavalcanti and N. Tischler and S. Slussarenko},
+      year={2024},
+      eprint={2412.16973},
+      journal = {arXiv e-prints},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      abstract = {The certification of randomness is essential for both fundamental science and information technologies. Unlike traditional random number generators, randomness obtained from nonlocal correlations is fundamentally guaranteed to be unpredictable. However, it is also highly susceptible to noise. Here, we show that extending the conventional bipartite Bell scenario to hybrid quantum networks -- which incorporate both quantum channels and entanglement sources -- enhances the robustness of certifiable randomness. Our protocol even enables randomness to be certified from Bell-local states, broadening the range of quantum states useful for this task. Through both theoretical analysis and experimental validation in a photonic network, we demonstrate enhanced performance and improved noise resilience.}
+} 
+
+@ARTICLE{53,
+       author = {{Ohst}, T.-A. and {Zhang}, S. and {C. Nguyen}, H. and {Pl{\'a}vala}, M. and {Quintino}, M.T.},
+        title = "{Characterising memory in quantum channel discrimination via constrained separability problems}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics, Mathematical Physics},
          year = 2024,
-        month = sep,
+        month = nov,
 archivePrefix = {arXiv},
-       eprint = {2409.18202},
+       eprint = {2411.08110},
  primaryClass = {quant-ph},
-   abstract = {Higher-order transformations that act on a certain number of input quantum channels in an indefinite causal order - such as the quantum switch - cannot be described by standard quantum circuits that use the same number of calls of the input quantum channels. However, the question remains whether they can be simulated, i.e., whether their action on their input channels can be deterministically reproduced, for all arbitrary inputs, by a quantum circuit that uses a larger number of calls of the input channels. Here, we prove that when only one extra call of each input channel is available, the quantum switch cannot be simulated by any quantum circuit. We demonstrate that this result is robust by showing that, even when probabilistic and approximate simulations are considered, higher-order transformations that are close to the quantum switch can be at best simulated with a probability strictly less than one. This result stands in stark contrast with the known fact that, when the quantum switch acts exclusively on unitary channels, its action can be simulated.}
+ abstract = { Quantum memories are a crucial precondition in many protocols for processing quantum information. A fundamental problem that illustrates this statement is given by the task of channel discrimination, in which an unknown channel drawn from a known random ensemble should be determined by applying it for a single time. In this paper, we characterise the quality of channel discrimination protocols when the quantum memory, quantified by the auxiliary dimension, is limited. This is achieved by formulating the problem in terms of separable quantum states with additional affine constraints that all of their factors in each separable decomposition obey. We discuss the computation of upper and lower bounds to the solutions of such problems which allow for new insights into the role of memory in channel discrimination. In addition to the single-copy scenario, this methodological insight allows to systematically characterise quantum and classical memories in adaptive channel discrimination protocols. Especially, our methods enabled us to identify channel discrimination scenarios where classical or quantum memory is required, and to identify the hierarchical and non-hierarchical relationships within adaptive channel discrimination protocols.},
 }
 
 @ARTICLE{52,
@@ -23,6 +68,20 @@ archivePrefix = {arXiv},
  primaryClass = {quant-ph},
    abstract = {Quantum theory is consistent with a computational model permitting black-box operations to be applied in an indefinite causal order, going beyond the standard circuit model of computation. The quantum switch -- the simplest such example -- has been shown to provide numerous information-processing advantages. Here, we prove that the action of the quantum switch on two n-qubit quantum channels cannot be simulated deterministically and exactly by any causally ordered quantum circuit that uses M calls to one channel and one call to the other, if M≤max(2,2n−1). This demonstrates an exponential separation in quantum query complexity of indefinite causal order compared to standard quantum circuits.}
 }
+
+@ARTICLE{51,
+       author = {{Bavaresco}, J. and {Yoshida}, S. and {Odake}, T. and {Kristj{\'a}nsson}, H. and {Taranto}, P. and {Murao}, M. and {Quintino}, M.T},
+        title = "{Can the quantum switch be deterministically simulated?}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics},
+         year = 2024,
+        month = sep,
+archivePrefix = {arXiv},
+       eprint = {2409.18202},
+ primaryClass = {quant-ph},
+   abstract = {Higher-order transformations that act on a certain number of input quantum channels in an indefinite causal order - such as the quantum switch - cannot be described by standard quantum circuits that use the same number of calls of the input quantum channels. However, the question remains whether they can be simulated, i.e., whether their action on their input channels can be deterministically reproduced, for all arbitrary inputs, by a quantum circuit that uses a larger number of calls of the input channels. Here, we prove that when only one extra call of each input channel is available, the quantum switch cannot be simulated by any quantum circuit. We demonstrate that this result is robust by showing that, even when probabilistic and approximate simulations are considered, higher-order transformations that are close to the quantum switch can be at best simulated with a probability strictly less than one. This result stands in stark contrast with the known fact that, when the quantum switch acts exclusively on unitary channels, its action can be simulated.}
+}
+
 
 
 @ARTICLE{50,
@@ -55,45 +114,35 @@ archivePrefix = {arXiv},
 }
 
 @ARTICLE{48,
-       author = {{Egelhaaf}, S. and {Pauwels}, J. and {Quintino}, M.T. and {Uola}, R.},
-        title = "{Certifying measurement incompatibility in prepare-and-measure and Bell scenarios}",
-      journal = {arXiv e-prints},
-     keywords = {Quantum Physics},
-         year = 2024,
-        month = jul,
+doi = {10.1088/1751-8121/adb3ff},
+year = {2025},
+month = {mar},
+volume = {58},
+number = {9},
+pages = {095304},
+mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ48.pdf},
+author = {Egelhaaf, S. and Pauwels, J. and Quintino, M.T. and Uola, R.},
+title = {Certifying measurement incompatibility in prepare-and-measure and Bell scenarios},
+  journal = {J. Phys. A},
 archivePrefix = {arXiv},
        eprint = {2407.06787},
  primaryClass = {quant-ph},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240706787E},
       abstract = {We consider the problem of certifying measurement incompatibility in a prepare-and-measure (PM) scenario. We present different families of sets of qubit measurements which are incompatible, but cannot lead to any quantum over classical advantage in PM scenarios. Our examples are obtained via a general theorem which proves a set of qubit dichotomic measurements can have their incompatibility certified in a PM scenario if and only if their incompatibility can be certified in a bipartite Bell scenario where the parties share a maximally entangled state. Our framework naturally suggests a hierarchy of increasingly stronger notions of incompatibility, in which more power is given to the classical simulation by increasing its dimensionality. For qubits, we give an example of measurements whose incompatibility can be certified against trit simulations, which we show is the strongest possible notion for qubits in this framework. }
 }
 
 
 @article{47,
-       author = {{Pl{\'a}vala}, M. and {G{\"u}hne}, T. and {Quintino}, M.T.},
-        title = "{All incompatible measurements on qubits lead to multiparticle Bell nonlocality}",
-      journal = {arXiv e-prints},
-     keywords = {Quantum Physics},
-         year = 2024,
-        month = mar,
+title={All Incompatible Measurements on Qubits Lead to Multiparticle Bell Nonlocality},
+   volume={134},
+   DOI={10.1103/physrevlett.134.200201},
+   number={20},
+  journal = {Phys. Rev. Lett.},
+   publisher={American Physical Society (APS)},
+   author={Plávala, M. and Gühne, O. and Quintino, M.T.},
+   year={2025},
        eprint = {2403.10564},
+        mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ47.pdf},
        abstract = { Bell nonlocality is a fundamental phenomenon of quantum physics as well as an essential resource for various tasks in quantum information processing. It is known that for the observation of nonlocality the measurements on a quantum system have to be incompatible, but the question which incompatible measurements are useful, remained open. Here we prove that any set of incompatible measurements on qubits leads to a violation of a suitable Bell inequality in a multiparticle scenario, where all parties perform the same set of measurements. Since there exists incompatible measurements on qubits which do not lead to Bell nonlocality for two particles, our results demonstrate a fundamental difference between two-particle and multi-particle nonlocality, pointing at the superactivation of measurement incompatibility as a resource. In addition, our results imply that measurement incompatibility for qubits can always be certified in a device-independent manner.}
-}
-@ARTICLE{42,
-   title={Characterising transformations between quantum objects, 'completeness' of quantum properties, and transformations without a fixed causal order},
-   mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ42.pdf},
-   volume={8},
-   ISSN={2521-327X},
-   url={http://dx.doi.org/10.22331/q-2024-07-17-1415},
-   DOI={10.22331/q-2024-07-17-1415},
-   eprint={2305.01247},
-   journal={Quantum},
-   publisher={Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
-   author={Milz, S. and Quintino, M.T.},
-   year={2024},
-   month=jul, 
-   pages={1415},
-   abstract={Many fundamental and key objects in quantum mechanics are linear mappings between particular affine/linear spaces. This structure includes basic quantum elements such as states, measurements, channels, instruments, non-signalling channels and channels with memory, and also higher-order operations such as superchannels, quantum combs, n-time processes, testers, and process matrices which may not respect a definite causal order. Deducing and characterising their structural properties in terms of linear and semidefinite constraints is not only of foundational relevance, but plays an important role in enabling the numerical optimisation over sets of quantum objects and allowing simpler connections between different concepts and objects. Here, we provide a general framework to deduce these properties in a direct and easy to use way. While primarily guided by practical quantum mechanical considerations, we also extend our analysis to mappings between general linear/affine spaces and derive their properties, opening the possibility for analysing sets which are not explicitly forbidden by quantum theory, but are still not much explored. Together, these results yield versatile and readily applicable tools for all tasks that require the characterisation of linear transformations, in quantum mechanics and beyond. As an application of our methods, we discuss how the existence of indefinite causality naturally emerges in higher-order quantum transformations and provide a simple strategy for the characterisation of mappings that have to preserve properties in a 'complete' sense, i.e., when acting non-trivially only on parts of an input space. }
 }
 
 @ARTICLE{46,
@@ -127,61 +176,55 @@ archivePrefix = {arXiv},
           abstract = {Memory is the fundamental form of temporal complexity: when present but uncontrollable, it manifests as non-Markovian noise; conversely, if controllable, memory can be a powerful resource for information processing. Memory effects arise from/are transmitted via interactions between a system and its environment; as such, they can be either classical or quantum. From a practical standpoint, quantum processes with classical memory promise near-term applicability: they are more powerful than their memoryless counterpart, yet at the same time can be controlled over significant timeframes without being spoiled by decoherence. However, despite practical and foundational value, apart from simple two-time scenarios, the distinction between quantum and classical memory remains unexplored. Here, we analyse multi-time quantum processes with memory mechanisms that transmit only classical information forward in time. Complementing this analysis, we also study two related -- but simpler to characterise -- sets of processes that could also be considered to have classical memory from a structural perspective, and demonstrate that these lead to remarkably distinct phenomena in the multi-time setting. Subsequently, we systematically stratify the full hierarchy of memory effects in quantum mechanics, many levels of which collapse in the two-time setting, making our results genuinely multi-time phenomena. }
 }
 
-@article{38,
-	title = {Classical cost of transmitting a qubit},
-	author = {Renner, M.J. and Tavakoli, A.  and Quintino, M.T. },
-	journal = {Phys. Rev. Lett.},
-	volume = {130},
-	pages = {120801},
-	year = {2023},
-	eprint = {2207.02244},
-	doi = {10.1103/PhysRevLett.130.120801},
-      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ38.pdf},
-      abstract = {We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.}
-}
-@ARTICLE{37,
-       author = {{Ebler}, D. and {Horodecki}, M. and {Marciniak}, M. and {M{\l}ynik}, T. and {Quintino}, M.T and {Studzi{\'n}ski}, M.},
-  journal={IEEE Trans. Inf. Theory}, 
-  title={Optimal Universal Quantum Circuits for Unitary Complex Conjugation}, 
-  year={2023},
-  volume={69},
-  number={8},
-  pages={5069-5082},
-  doi={10.1109/TIT.2023.3263771},
-  eprint = {2206.00107},
-        mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ37.pdf},
-  abstract = {Let Ud be a unitary operator representing an arbitrary d-dimensional unitary quantum operation. This work presents optimal quantum circuits for transforming a number k of calls of Ud into its complex conjugate Ud¯. Our circuits admit a parallel implementation and are proven to be optimal for any k and d with an average fidelity of ⟨F⟩=(k+1)/(d(d−k)). Optimality is shown for average fidelity, robustness to noise, and other standard figures of merit. This extends previous works which considered the scenario of a single call (k=1) of the operation Ud, and the special case of k=d−1 calls. We then show that our results encompass optimal transformations from k calls of Ud to f(Ud) for any arbitrary homomorphism f from the group of d-dimensional unitary operators to itself, since complex conjugation is the only non-trivial automorphisms on the group of unitary operators. Finally, we apply our optimal complex conjugation implementation to design a probabilistic circuit for reversing arbitrary quantum evolutions. }
-}
-
-@article{33,
-       author = {{Dong}, Qingxiuxiong and {Quintino}, Marco T{\'u}lio and {Soeda}, Akihito and {Murao}, Mio},
-        title = "{The quantum switch is uniquely defined by its action on unitary operations}",
-      journal = {Quantum},
+@ARTICLE{44,
+       author = {{Cabello}, A. and {Quintino}, M.T. and {Kleinmann}, M.},
+        title = "{Logical possibilities for physics after MIP*=RE}",
+      journal = {arXiv e-prints},
      keywords = {Quantum Physics},
          year = 2023,
-        month = nov,
-       volume = {7},
-        pages = {1169},
-          doi = {10.22331/q-2023-11-07-1169},
-      eprint={2106.00034},
-   mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ33.pdf},
-      abstract = {The quantum switch is a physical process that creates a coherent control between different unitary operations which is often described as a process which transforms a pair of unitary operations (U1,U2) into a controlled unitary operation that coherently applies them in different orders as |0⟩⟨0|⊗U1U2+|1⟩⟨1|⊗U2U1. This description, however, does not directly define its action on non-unitary operations. The action of quantum switch on non-unitary operations is then chosen to be a "natural" extension of its action on unitary operation. Since, in general, the action of a process on non-unitary operations is not uniquely determined by its action on only unitary operations, in principle, there could be a set of inequivalent extensions of quantum switch for non-unitary operations. In this paper, we prove that there is a unique way to extend the actions of quantum switch to non-unitary operations. In other words, contrary to the general case, the action of quantum switch on non-unitary operations is completely determined by its action on unitary operations. We also discuss the general problem of when the complete description of a quantum process is uniquely determined by its action on unitary operations and identify a set of single-slot processes which are completely defined by their action on unitary operations.}
+        month = jul,
+archivePrefix = {arXiv},
+       eprint = {2307.02920},
+ primaryClass = {quant-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230702920C},
+      abstract = {MIP*=RE implies that C_{qa} (the closure of the set of tensor product correlations) and C_{qc} (the set of commuting correlations) can be separated by a hyperplane (i.e., a Bell-like inequality) and that there are correlations produced by commuting measurements (a finite number of them and with a finite number of outcomes) on an infinite-dimensional quantum system which cannot be approximated by sequences of finite-dimensional tensor product correlations. We point out that there are four logically possible universes after this result. Each possibility is interesting because it reveals either limitations in accepted physical theories or opportunities to test crucial aspects of nature. We list some open problems that may help us to design a road map to learn in which of these universes we are. }
 }
 
-@article{32,
-	title = {Unitary channel discrimination beyond group structures: <br> Advantages of sequential and indefinite-causal-order strategies},
-	author = {Bavaresco, J.  and Murao, M.  and Quintino, M.T. },
-	journal = {J. Math. Phys.},
-	volume = {63},
-	number = {4},
-	pages = {042203},
-	year = {2022},
-	doi = {10.1063/5.0075919},
-      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ32.pdf},
-      eprint={2105.13369},
-      abstract = {For minimum-error channel discrimination tasks that involve only unitary channels, we show that sequential strategies may outperform parallel ones. Additionally, we show that general strategies that involve indefinite causal order are also advantageous for this task. However, for the task of discriminating a uniformly distributed set of unitary channels that forms a group, we show that parallel strategies are indeed optimal, even when compared to general strategies. We also show that strategies based on the quantum switch cannot outperform sequential strategies in the discrimination of unitary channels. Finally, we derive an ultimate upper bound for the maximal probability of successfully discriminating any set of unitary channels with any number of copies, for the most general strategies that are suitable for channel discrimination. Our bound is tight since it is saturated by sets of unitary channels forming a group k-design.},
-      selected={true}
+
+@ARTICLE{43,
+       author = {{Antesberger}, M. and {Quintino}, M.T. and {Walther}, P. and {Rozema}, L. A.},
+        title = "{Higher-Order Process Matrix Tomography of a Passively-Stable Quantum Switch}",
+      journal = {PRX Quantum},
+     keywords = {Quantum Physics},
+         year = 2024,
+        month = feb,
+       volume = {5},
+       number = {1},
+       eprint = {2305.19386},
+        pages = {010325},
+        mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ43.pdf},
+          doi = {10.1103/PRXQuantum.5.010325},
+      abstract = {The field of indefinite causal order (ICO) has seen a recent surge in interest. Much of this research has focused on the quantum SWITCH, wherein multiple parties act in a superposition of different orders in a manner transcending the quantum circuit model. This results in a new resource for quantum protocols, and is exciting for its relation to issues in foundational physics. The quantum SWITCH is also an example of a higher-order quantum operation, in that it not only transforms quantum states, but also other quantum operations. To date, no higher-order quantum operation has been completely experimentally characterized. Indeed, past work on the quantum SWITCH has confirmed its ICO by measuring causal witnesses or demonstrating resource advantages, but the complete process matrix has only been described theoretically. Here, we perform higher-order quantum process tomography. However, doing so requires exponentially many measurements with a scaling worse than standard process tomography. We overcome this challenge by creating a new passively-stable fiber-based quantum SWITCH using active optical elements to deterministically generate and manipulate time-bin encoded qubits. Moreover, our new architecture for the quantum SWITCH can be readily scaled to multiple parties. By reconstructing the process matrix, we estimate its fidelity and tailor different causal witnesses directly for our experiment. To achieve this, we measure a set of tomographically complete settings, that also spans the input operation space. Our tomography protocol allows for the characterization and debugging of higher-order quantum operations with and without an ICO, while our experimental time-bin techniques could enable the creation of a new realm of higher-order quantum operations with an ICO. }
 }
+
+
+@ARTICLE{42,
+   title={Characterising transformations between quantum objects, 'completeness' of quantum properties, and transformations without a fixed causal order},
+   mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ42.pdf},
+   volume={8},
+   ISSN={2521-327X},
+   url={http://dx.doi.org/10.22331/q-2024-07-17-1415},
+   DOI={10.22331/q-2024-07-17-1415},
+   eprint={2305.01247},
+   journal={Quantum},
+   publisher={Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
+   author={Milz, S. and Quintino, M.T.},
+   year={2024},
+   month=jul, 
+   pages={1415},
+   abstract={Many fundamental and key objects in quantum mechanics are linear mappings between particular affine/linear spaces. This structure includes basic quantum elements such as states, measurements, channels, instruments, non-signalling channels and channels with memory, and also higher-order operations such as superchannels, quantum combs, n-time processes, testers, and process matrices which may not respect a definite causal order. Deducing and characterising their structural properties in terms of linear and semidefinite constraints is not only of foundational relevance, but plays an important role in enabling the numerical optimisation over sets of quantum objects and allowing simpler connections between different concepts and objects. Here, we provide a general framework to deduce these properties in a direct and easy to use way. While primarily guided by practical quantum mechanical considerations, we also extend our analysis to mappings between general linear/affine spaces and derive their properties, opening the possibility for analysing sets which are not explicitly forbidden by quantum theory, but are still not much explored. Together, these results yield versatile and readily applicable tools for all tasks that require the characterisation of linear transformations, in quantum mechanics and beyond. As an application of our methods, we discuss how the existence of indefinite causality naturally emerges in higher-order quantum transformations and provide a simple strategy for the characterisation of mappings that have to preserve properties in a 'complete' sense, i.e., when acting non-trivially only on parts of an input space. }
+}
+
 @ARTICLE{41,
        author = {{Str{\"o}mberg}, T. and {Schiansky}, P. and {Peterson}, R.W. and {Quintino}, M.T. and {Walther}, P.},
         title = "{Demonstration of a quantum SWITCH in a Sagnac configuration}",
@@ -232,6 +275,31 @@ journal = {Phys. Rev. Research},
       abstract = { We analyse the amount of classical communication required to reproduce the statistics of local projective measurements on a general pair of entangled qubits. We construct a classical protocol that perfectly simulates local projective measurements on all entangled qubit pairs by communicating one classical trit. Additionally, when 2p(1−p)2p−1log(p1−p)+2(1−p)≤1, approximately 0.835≤p≤1, we present a classical protocol that requires only a single bit of communication. The latter model even allows a perfect classical simulation with an average communication cost that approaches zero in the limit where the degree of entanglement approaches zero (p→1). This proves that the communication cost for simulating weakly entangled qubit pairs is strictly smaller than for the maximally entangled one.}
 }
 
+@article{38,
+	title = {Classical cost of transmitting a qubit},
+	author = {Renner, M.J. and Tavakoli, A.  and Quintino, M.T. },
+	journal = {Phys. Rev. Lett.},
+	volume = {130},
+	pages = {120801},
+	year = {2023},
+	eprint = {2207.02244},
+	doi = {10.1103/PhysRevLett.130.120801},
+      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ38.pdf},
+      abstract = {We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.}
+}
+@ARTICLE{37,
+       author = {{Ebler}, D. and {Horodecki}, M. and {Marciniak}, M. and {M{\l}ynik}, T. and {Quintino}, M.T and {Studzi{\'n}ski}, M.},
+  journal={IEEE Trans. Inf. Theory}, 
+  title={Optimal Universal Quantum Circuits for Unitary Complex Conjugation}, 
+  year={2023},
+  volume={69},
+  number={8},
+  pages={5069-5082},
+  doi={10.1109/TIT.2023.3263771},
+  eprint = {2206.00107},
+        mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ37.pdf},
+  abstract = {Let Ud be a unitary operator representing an arbitrary d-dimensional unitary quantum operation. This work presents optimal quantum circuits for transforming a number k of calls of Ud into its complex conjugate Ud¯. Our circuits admit a parallel implementation and are proven to be optimal for any k and d with an average fidelity of ⟨F⟩=(k+1)/(d(d−k)). Optimality is shown for average fidelity, robustness to noise, and other standard figures of merit. This extends previous works which considered the scenario of a single call (k=1) of the operation Ud, and the special case of k=d−1 calls. We then show that our results encompass optimal transformations from k calls of Ud to f(Ud) for any arbitrary homomorphism f from the group of d-dimensional unitary operators to itself, since complex conjugation is the only non-trivial automorphisms on the group of unitary operators. Finally, we apply our optimal complex conjugation implementation to design a probabilistic circuit for reversing arbitrary quantum evolutions. }
+}
 @ARTICLE{36,
        author = {Boghiu, E.C. and Hirsch, F. and Lin, P.S. and Quintino, M.T. and Bowles J.},
         title = "{Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios}",
@@ -247,42 +315,7 @@ journal = {Phys. Rev. Research},
        abstract = {It has recently been shown that by broadcasting the subsystems of a bipartite quantum state, one can activate Bell nonlocality and significantly improve noise tolerance bounds for device-independent entanglement certification. In this work we strengthen these results and explore new aspects of this phenomenon. First, we prove new results related to the activation of Bell nonlocality. We construct Bell inequalities tailored to the broadcast scenario, and show how broadcasting can lead to even stronger notions of Bell nonlocality activation. In particular, we exploit these ideas to show that bipartite states admitting a local hidden-variable model for general measurements can lead to genuine tripartite nonlocal correlations. We then study device-independent entanglement certification in the broadcast scenario, and show through semidefinite programming techniques that device-independent entanglement certification is possible for the two-qubit Werner state in essentially the entire range of entanglement. Finally, we extend the concept of EPR steering to the broadcast scenario, and present novel examples of activation of the two-qubit isotropic state. Our results pave the way for broadcast-based device-dependent and semi-device-independent protocols.}
 }
 
-@ARTICLE{44,
-       author = {{Cabello}, A. and {Quintino}, M.T. and {Kleinmann}, M.},
-        title = "{Logical possibilities for physics after MIP*=RE}",
-      journal = {arXiv e-prints},
-     keywords = {Quantum Physics},
-         year = 2023,
-        month = jul,
-archivePrefix = {arXiv},
-       eprint = {2307.02920},
- primaryClass = {quant-ph},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230702920C},
-      abstract = {MIP*=RE implies that C_{qa} (the closure of the set of tensor product correlations) and C_{qc} (the set of commuting correlations) can be separated by a hyperplane (i.e., a Bell-like inequality) and that there are correlations produced by commuting measurements (a finite number of them and with a finite number of outcomes) on an infinite-dimensional quantum system which cannot be approximated by sequences of finite-dimensional tensor product correlations. We point out that there are four logically possible universes after this result. Each possibility is interesting because it reveals either limitations in accepted physical theories or opportunities to test crucial aspects of nature. We list some open problems that may help us to design a road map to learn in which of these universes we are. }
-}
-
-
-@ARTICLE{43,
-       author = {{Antesberger}, M. and {Quintino}, M.T. and {Walther}, P. and {Rozema}, L. A.},
-        title = "{Higher-Order Process Matrix Tomography of a Passively-Stable Quantum Switch}",
-      journal = {PRX Quantum},
-     keywords = {Quantum Physics},
-         year = 2024,
-        month = feb,
-       volume = {5},
-       number = {1},
-       eprint = {2305.19386},
-        pages = {010325},
-        mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ43.pdf},
-          doi = {10.1103/PRXQuantum.5.010325},
-      abstract = {The field of indefinite causal order (ICO) has seen a recent surge in interest. Much of this research has focused on the quantum SWITCH, wherein multiple parties act in a superposition of different orders in a manner transcending the quantum circuit model. This results in a new resource for quantum protocols, and is exciting for its relation to issues in foundational physics. The quantum SWITCH is also an example of a higher-order quantum operation, in that it not only transforms quantum states, but also other quantum operations. To date, no higher-order quantum operation has been completely experimentally characterized. Indeed, past work on the quantum SWITCH has confirmed its ICO by measuring causal witnesses or demonstrating resource advantages, but the complete process matrix has only been described theoretically. Here, we perform higher-order quantum process tomography. However, doing so requires exponentially many measurements with a scaling worse than standard process tomography. We overcome this challenge by creating a new passively-stable fiber-based quantum SWITCH using active optical elements to deterministically generate and manipulate time-bin encoded qubits. Moreover, our new architecture for the quantum SWITCH can be readily scaled to multiple parties. By reconstructing the process matrix, we estimate its fidelity and tailor different causal witnesses directly for our experiment. To achieve this, we measure a set of tomographically complete settings, that also spans the input operation space. Our tomography protocol allows for the characterization and debugging of higher-order quantum operations with and without an ICO, while our experimental time-bin techniques could enable the creation of a new realm of higher-order quantum operations with an ICO. }
-}
-
-
-
-
 @article{35,
-  selected={true},
   title = {Deterministic transformations between unitary operations: <br> Exponential advantage with adaptive quantum circuits and the power of indefinite causality},
   author = {Quintino, M.T. and Ebler, D.},
   journal = {Quantum},
@@ -312,6 +345,69 @@ archivePrefix = {arXiv},
       publisher = {American Physical Society (APS)},
       mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ34.pdf},
       abstract = {Quantum channels breaking entanglement, incompatibility, or nonlocality are defined as such because they are not useful for entanglement-based, one-sided device-independent, or device-independent quantum-information processing, respectively. Here, we show that such breaking channels are related to complementary tests of macrorealism, i.e., temporal separability, channel unsteerability, temporal unsteerability, and the temporal Bell inequality. To demonstrate this we first define a steerability-breaking channel, which is conceptually similar to entanglement and nonlocality-breaking channels and prove that it is identical to an incompatibility-breaking channel. A hierarchy of quantum nonbreaking channels is derived, akin to the existing hierarchy relations for temporal and spatial quantum correlations. We then introduce the concept of channels that break temporal correlations, explain how they are related to the standard breaking channels, and prove the following results. (1) A robustness-based measure for non-entanglement-breaking channels can be probed by temporal nonseparability. (2) A non-steerability-breaking channel can be quantified by channel steering. (3) Temporal steerability and nonmacrorealism can be used for, respectively, distinguishing unital steerability-breaking channels and nonlocality-breaking channels for a maximally entangled state. Finally, a two-dimensional depolarizing channel is experimentally implemented as a proof-of-principle example to demonstrate the hierarchy relation of nonbreaking channels using temporal quantum correlations.}
+}
+
+@article{33,
+       author = {{Dong}, Qingxiuxiong and {Quintino}, Marco T{\'u}lio and {Soeda}, Akihito and {Murao}, Mio},
+        title = "{The quantum switch is uniquely defined by its action on unitary operations}",
+      journal = {Quantum},
+     keywords = {Quantum Physics},
+         year = 2023,
+        month = nov,
+       volume = {7},
+        pages = {1169},
+          doi = {10.22331/q-2023-11-07-1169},
+      eprint={2106.00034},
+   mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ33.pdf},
+      abstract = {The quantum switch is a physical process that creates a coherent control between different unitary operations which is often described as a process which transforms a pair of unitary operations (U1,U2) into a controlled unitary operation that coherently applies them in different orders as |0⟩⟨0|⊗U1U2+|1⟩⟨1|⊗U2U1. This description, however, does not directly define its action on non-unitary operations. The action of quantum switch on non-unitary operations is then chosen to be a "natural" extension of its action on unitary operation. Since, in general, the action of a process on non-unitary operations is not uniquely determined by its action on only unitary operations, in principle, there could be a set of inequivalent extensions of quantum switch for non-unitary operations. In this paper, we prove that there is a unique way to extend the actions of quantum switch to non-unitary operations. In other words, contrary to the general case, the action of quantum switch on non-unitary operations is completely determined by its action on unitary operations. We also discuss the general problem of when the complete description of a quantum process is uniquely determined by its action on unitary operations and identify a set of single-slot processes which are completely defined by their action on unitary operations.}
+}
+
+@article{32,
+	title = {Unitary channel discrimination beyond group structures: <br> Advantages of sequential and indefinite-causal-order strategies},
+	author = {Bavaresco, J.  and Murao, M.  and Quintino, M.T. },
+	journal = {J. Math. Phys.},
+	volume = {63},
+	number = {4},
+	pages = {042203},
+	year = {2022},
+	doi = {10.1063/5.0075919},
+      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ32.pdf},
+      eprint={2105.13369},
+      abstract = {For minimum-error channel discrimination tasks that involve only unitary channels, we show that sequential strategies may outperform parallel ones. Additionally, we show that general strategies that involve indefinite causal order are also advantageous for this task. However, for the task of discriminating a uniformly distributed set of unitary channels that forms a group, we show that parallel strategies are indeed optimal, even when compared to general strategies. We also show that strategies based on the quantum switch cannot outperform sequential strategies in the discrimination of unitary channels. Finally, we derive an ultimate upper bound for the maximal probability of successfully discriminating any set of unitary channels with any number of copies, for the most general strategies that are suitable for channel discrimination. Our bound is tight since it is saturated by sets of unitary channels forming a group k-design.},
+      selected={true}
+}
+
+@article{31,
+   title={Certifying dimension of quantum systems by sequential projective measurements},
+   volume={5},
+   ISSN={2521-327X},
+   DOI={10.22331/q-2021-06-10-472},
+   journal={Quantum},
+   publisher={Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
+   author={Sohbi, A. and Markham, D. and Kim, J. and Quintino, M.T.},
+   year={2021},
+   month={Jun},
+    eprint = {2102.04608},
+      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ31.pdf},
+   abstract = {This work analyzes correlations arising from quantum systems subject to sequential projective measurements to certify that the system in question has a quantum dimension greater than some d. We refine previous known methods and show that dimension greater than two can be certified in scenarios which are considerably simpler than the ones presented before and, for the first time in this sequential projective scenario, we certify quantum systems with dimension strictly greater than three. We also perform a systematic numerical analysis in terms of robustness and conclude that performing random projective measurements on random pure qutrit states allows a robust certification of quantum dimensions with very high probability.},
+   pages={472}
+}
+
+
+@article{30,
+   title={Simple and maximally robust processes with no classical common-cause or direct-cause explanation},
+   volume={5},
+   ISSN={2521-327X},
+   DOI={10.22331/q-2021-09-09-538},
+   journal={Quantum},
+   publisher={Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
+   author={Nery, M. and Quintino, M.T. and Guérin, P. A. and Maciel, T. O. and Vianna, R. O.},
+   year={2021},
+   month={Sep},
+   eprint = {2101.11630},
+   mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ30.pdf},
+   abstract = {Guided by the intuition of coherent superposition of causal relations, recent works presented quantum processes without classical common-cause and direct-cause explanation, that is, processes which cannot be written as probabilistic mixtures of quantum common-cause and quantum direct-cause relations (CCDC). In this work, we analyze the minimum requirements for a quantum process to fail to admit a CCDC explanation and present "simple" processes, which we prove to be the most robust ones against general noise. These simple processes can be realized by preparing a maximally entangled state and applying the identity quantum channel, thus not requiring an explicit coherent mixture of common-cause and direct-cause, exploiting the possibility of a process to have both relations simultaneously. We then prove that, although all bipartite direct-cause processes are bipartite separable operators, there exist bipartite separable processes which are not direct-cause. This shows that the problem of deciding weather a process is direct-cause process is not equivalent to entanglement certification and points out the limitations of entanglement methods to detect non-classical CCDC processes. We also present a semi-definite programming hierarchy that can detect and quantify the non-classical CCDC robustnesses of every non-classical CCDC process. Among other results, our numerical methods allow us to show that the simple processes presented here are likely to be also the maximally robust against white noise. Finally, we explore the equivalence between bipartite direct-cause processes and bipartite processes without quantum memory, to present a separable process which cannot be realized as a process without quantum memory.},
+   pages={538}
 }
 
 @article{29,
@@ -349,42 +445,6 @@ archivePrefix = {arXiv},
    pages = {150504}
 }
 
-@article{31,
-   title={Certifying dimension of quantum systems by sequential projective measurements},
-   volume={5},
-   ISSN={2521-327X},
-   DOI={10.22331/q-2021-06-10-472},
-   journal={Quantum},
-   publisher={Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
-   author={Sohbi, A. and Markham, D. and Kim, J. and Quintino, M.T.},
-   year={2021},
-   month={Jun},
-    eprint = {2102.04608},
-      mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ31.pdf},
-   abstract = {This work analyzes correlations arising from quantum systems subject to sequential projective measurements to certify that the system in question has a quantum dimension greater than some d. We refine previous known methods and show that dimension greater than two can be certified in scenarios which are considerably simpler than the ones presented before and, for the first time in this sequential projective scenario, we certify quantum systems with dimension strictly greater than three. We also perform a systematic numerical analysis in terms of robustness and conclude that performing random projective measurements on random pure qutrit states allows a robust certification of quantum dimensions with very high probability.},
-   pages={472}
-}
-
-
-@article{30,
-   title={Simple and maximally robust processes with no classical common-cause or direct-cause explanation},
-   volume={5},
-   ISSN={2521-327X},
-   DOI={10.22331/q-2021-09-09-538},
-   journal={Quantum},
-   publisher={Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
-   author={Nery, M. and Quintino, M.T. and Guérin, P. A. and Maciel, T. O. and Vianna, R. O.},
-   year={2021},
-   month={Sep},
-   eprint = {2101.11630},
-   mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ30.pdf},
-   abstract = {Guided by the intuition of coherent superposition of causal relations, recent works presented quantum processes without classical common-cause and direct-cause explanation, that is, processes which cannot be written as probabilistic mixtures of quantum common-cause and quantum direct-cause relations (CCDC). In this work, we analyze the minimum requirements for a quantum process to fail to admit a CCDC explanation and present "simple" processes, which we prove to be the most robust ones against general noise. These simple processes can be realized by preparing a maximally entangled state and applying the identity quantum channel, thus not requiring an explicit coherent mixture of common-cause and direct-cause, exploiting the possibility of a process to have both relations simultaneously. We then prove that, although all bipartite direct-cause processes are bipartite separable operators, there exist bipartite separable processes which are not direct-cause. This shows that the problem of deciding weather a process is direct-cause process is not equivalent to entanglement certification and points out the limitations of entanglement methods to detect non-classical CCDC processes. We also present a semi-definite programming hierarchy that can detect and quantify the non-classical CCDC robustnesses of every non-classical CCDC process. Among other results, our numerical methods allow us to show that the simple processes presented here are likely to be also the maximally robust against white noise. Finally, we explore the equivalence between bipartite direct-cause processes and bipartite processes without quantum memory, to present a separable process which cannot be realized as a process without quantum memory.},
-   pages={538}
-}
-
-
-
-
 @article{27,
    title={Bell nonlocality with a single shot},
    volume={4},
@@ -400,7 +460,6 @@ archivePrefix = {arXiv},
    mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ27.pdf},
    abstract={In order to reject the local hidden variables hypothesis, the usefulness of a Bell inequality can be quantified by how small a p-value it will give for a physical experiment. Here we show that to obtain a small expected p-value it is sufficient to have a large gap between the local and Tsirelson bounds of the Bell inequality, when it is formulated as a nonlocal game. We develop an algorithm for transforming an arbitrary Bell inequality into an equivalent nonlocal game with the largest possible gap, and show its results for the CGLMP and Inn22 inequalities. We present explicit examples of Bell inequalities with gap arbitrarily close to one, and show that this makes it possible to reject local hidden variables with arbitrarily small p-value in a single shot, without needing to collect statistics. We also develop an algorithm for calculating local bounds of general Bell inequalities which is significantly faster than the naïve approach, which may be of independent interest.}
 }
-
 
 @ARTICLE{26,
    title={Consequences of preserving reversibility in quantum superchannels},
@@ -526,7 +585,6 @@ archivePrefix = {arXiv},
       abstract = { Valid transformations between quantum states are necessarily described by completely positive maps, instead of just positive maps. Positive but not completely positive maps such as the transposition map cannot be implemented due to the existence of entanglement in composite quantum systems, but there are classes of states for which the positivity is guaranteed, e.g., states not correlated to other systems. In this paper, we introduce the concept of N-copy extension of maps to quantitatively analyze the difference between positive maps and completely positive maps. We consider implementations of the action of positive but not completely positive maps on uncorrelated states by allowing an extra resource of consuming multiple copies of the input state and characterize the positive maps in terms of implementability with multiple copies. We show that by consuming multiple copies, the set of implementable positive maps becomes larger, and almost all positive maps are implementable with finite copies of an input state. The number of copies of the input state required to implement a positive map quantifies the degree by which a positive map violates complete positivity. We then analyze the optimal N-copy implementability of a noisy version of the transposition map.}
 }
 
-
 @ARTICLE{19,
        author = {{Hirsch}, F. and {Quintino}, M.T. and {Brunner}, N.},
         title = "{Quantum measurement incompatibility does not imply Bell nonlocality}",
@@ -544,7 +602,6 @@ archivePrefix = {arXiv},
       mypdf = {github.com/mtcq/mtcq.github.io/raw/master/assets/pdf/MTQ19.pdf},
       abstract = {We discuss the connection between the incompatibility of quantum measurements, as captured by the notion of joint measurability, and the violation of Bell inequalities. Specifically, we present explicitly a given a set of non jointly measurable POVMs MA with the following property. Considering a bipartite Bell test where Alice uses MA, then for any possible shared entangled state ρ and any set of (possibly infinitely many) POVMs MB performed by Bob, the resulting statistics admits a local model, and can thus never violate any Bell inequality. This shows that quantum measurement incompatibility does not imply Bell nonlocality in general.}
 }
-
 
 @ARTICLE{18,
        author = {{Bavaresco}, J. and {Quintino}, M.T. and
@@ -621,8 +678,6 @@ archivePrefix = {arXiv},
 Finally, we relate the non-contextual polytope of single-party correlation inequalities with the cut polytope CUT(∇G), where G denotes the compatibility graph of observables in the contextuality scenario and ∇G denotes the suspension graph of G. We observe that there exist tight non-contextuality inequalities with no quantum violation, and furthermore that this set of inequalities is beyond those implied by the Consistent Exclusivity principle.}
 }
 
-
-
 @ARTICLE{14,
    author = {{Hirsch}, F. and {Quintino}, M.T. and {Bowles}, J. and 
 	{V{\'e}rtesi}, T. and {Brunner}, N.},
@@ -696,7 +751,6 @@ Finally, we relate the non-contextual polytope of single-party correlation inequ
   abstract = {Quantum steering can be detected via the violation of steering inequalities, which provide sufficient conditions for the steerability of quantum states. Here we discuss the converse problem, namely ensuring that a state is unsteerable, and hence Bell local. We present a simple criterion, applicable to any two-qubit state, which guarantees that the state admits a local hidden state model for arbitrary projective measurements. We find new classes of unsteerable entangled states, which can thus not violate any steering or Bell inequality. In turn, this leads to sufficient conditions for a state to be only one-way steerable, and provides the simplest possible example of one-way steering. Finally, by exploiting the connection between steering and measurement incompatibility, we give a sufficient criterion for a continuous set of qubit measurements to be jointly measurable.}	
 }
 
-
 @ARTICLE{10,
    author = {{Quintino}, M.T. and {V{\'e}rtesi}, T. and {Cavalcanti}, D. and 
 	{Augusiak}, R. and {Demianowicz}, M. and {A{c\'i}n}, A. and 
@@ -717,7 +771,6 @@ Finally, we relate the non-contextual polytope of single-party correlation inequ
   abstract = {Einstein-Podolsky-Rosen steering is a form of inseparability in quantum theory commonly acknowledged to be intermediate between entanglement and Bell nonlocality. However, this statement has so far only been proven for a restricted class of measurements, namely projective measurements. Here we prove that entanglement, one-way steering, two-way steering and nonlocality are genuinely different considering general measurements, i.e. single round positive-operator-valued-measures. Finally, we show that the use of sequences of measurements is relevant for steering tests, as they can be used to reveal "hidden steering".},
   selected={true}
 }
-
 
 
 @ARTICLE{9,

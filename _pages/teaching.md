@@ -5,6 +5,20 @@ title: teaching
 nav: true
 ---
 
+#### Sep 2024 -- Jan 2025:
+
+* [MU4INQ05 - Quantum circuits and query complexity](): cours (20h) et TD (6h).\\
+ [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M1
+
+
+#### Jan 2025 -- Jun 2025:
+
+* [LU3IN030 - Introduction à la calculabilité et à la décidabilité](https://moodle-sciences-24.sorbonne-universite.fr/course/view.php?id=4461): chargé de TD/TP (36.5h). &nbsp;  [Site de l'UE](https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2024/ue/LU3IN030-2025fev/organisation.php). \\
+ [Lincese d'Informatique](https://sciences.sorbonne-universite.fr/formation-sciences/licences/licences-generales-l2-l3/licence-dinformatique), L3. 
+
+
+* [MU4INQ51 - QIIntro](https://moodle-sciences-24.sorbonne-universite.fr/course/view.php?id=4573): cours (20h).\\
+ [Master d'Informatique - Information Quantique (IQ)](https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-IQ), M1
 
 
 #### Sep 2024 -- Jan 2025:
