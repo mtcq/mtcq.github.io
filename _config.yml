@@ -167,7 +167,7 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
 #  - jekyll-imagemagick
-  - jekyll-paginate-v4
+  - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
