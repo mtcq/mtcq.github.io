@@ -2,7 +2,7 @@
 layout: page
 permalink: /talk/
 title: talks
-description: Here you may find slides and videos from some talks I have presented.
+description: Here you may find slides and videos from some talks I have presented. A complete list of all talks may be found in my CV.
 nav: true
 ---
 <div class="news">
