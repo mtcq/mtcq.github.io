@@ -6,15 +6,16 @@ nav: true
 ---
 
 
-You can find my complete CV [here](/assets/pdf/cvMTQ.pdf).	
+You can find both the [short version](/assets/pdf/cvMTQ_short.pdf) and the [long version](/assets/pdf/cvMTQ.pdf) of my CV.
 
-#### Employment:
+#### Current Employment:
 
 [comment]: # (This actually is the most platform independent comment)
 
-* **Associate Professor (Maître de Conférences):** [Sorbonne University](https://sciences.sorbonne-universite.fr/), Paris, France (Sep 2022 -- now) \\
+* **Associate Professor (Maître de Conférences - HDR):** [Sorbonne University](https://sciences.sorbonne-universite.fr/), Paris, France (Sep 2022 -- now) \\
 Member of the [Quantum Information](https://www.lip6.fr/recherche/team_membres.php?acronyme=QI) research team at [LIP6](https://www.lip6.fr/).
 
+#### Employment History:
 
 * **Postdoctoral Researcher:** [IQOQI Vienna](https://www.iqoqi-vienna.at/people/staff/marco-tulio-coelho-quintino), Vienna, Austria (Mar 2021 -- Aug 2022) \\
 In the group of Prof. [Časlav Brukner](https://www.quantumfoundations.org/people.html) \\
@@ -60,5 +61,3 @@ Funding: [CAPES, Brazil](https://www.gov.br/capes/)
 Undergrad Monograph: [Não-localidade como recurso para comunicação](https://www.ime.unicamp.br/~tcunha/MonografiaMTulio.pdf) \\
 Supervisor: [Marcelo Terra Cunha](https://www.ime.unicamp.br/~tcunha/) \\
 Funding: [CNPq, Brazil](https://www.gov.br/cnpq)
-
-

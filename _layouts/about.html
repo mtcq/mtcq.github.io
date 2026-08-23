@@ -18,6 +18,7 @@ layout: default
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
         {% include figure.html 
           path=profile_image_path 
+          alt=page.profile.alt
           class="img-fluid z-dept-1 rounded"%}
       {% endif %}
       {% if page.profile.address %}
