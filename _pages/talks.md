@@ -6,27 +6,33 @@ description: Here you may find slides and videos from some talks I have presente
 nav: true
 ---
 <div class="news">
-  {% if site.talks  %}
+  {% if site.talks %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign news = site.talks | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <tr>
-          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-        <td>
-        {% if item.place -%} 
-            <span class="talks-place">{{ item.place }}</span>
-        {%- endif %}
-        </td>
-          </td>
-        </tr>
-      {% endfor %}
+        <caption class="sr-only">Selected talks, presentation dates, and locations</caption>
+        <thead class="sr-only">
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Talk</th>
+            <th scope="col">Place</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% assign talks = site.talks | sort: "date" | reverse %}
+          {% for item in talks %}
+            <tr>
+              <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+              <td>
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              </td>
+              <td>
+                {% if item.place %}
+                  <span class="talks-place">{{ item.place }}</span>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
       </table>
     </div>
   {% else %}

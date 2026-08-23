@@ -10,7 +10,7 @@ nav: true
 [comment]: # (List of my scientific publications.)
 
 All my scientific papers are publicly available at [arXiv](https://arxiv.org/a/quintino_m_1.html) and some statistics may be found at [Google Scholar](https://scholar.google.com/citations?user=9S-Jrs4AAAAJ). <br>
-Here, you can also download the journal versions of my published papers. 
+Here, you can also download the journal versions of my papers accpeted after peer review process. 
 
 <div class="publications">
 
