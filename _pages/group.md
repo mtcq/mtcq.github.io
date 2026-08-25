@@ -6,6 +6,41 @@ nav: true
 description: Current and former members of my research group.
 ---
 
+<style>
+  .group-gallery figure {
+    margin-bottom: 0;
+  }
+
+  .group-gallery picture {
+    aspect-ratio: 3 / 2;
+    display: block;
+    overflow: hidden;
+  }
+
+  .group-gallery img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .group-section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+</style>
+
+<div class="row mt-3 group-gallery">
+  <div class="col-md-6 mb-3 mb-md-0">
+    {% include figure.html path="assets/img/group1_web.jpg" class="img-fluid rounded z-depth-1" alt="Research group posing in front of a whiteboard." zoomable=true %}
+  </div>
+  <div class="col-md-6">
+    {% include figure.html path="assets/img/group2_web.jpg" class="img-fluid rounded z-depth-1" alt="Research group outdoors under a rainbow umbrella." zoomable=true %}
+  </div>
+</div>
+<div class="caption">
+  The group in June 2026, pictures taken by <a href="https://lip6.fr/Camiel.Meijer">Camiel Meijer</a>.
+</div>
+
 
 ## Current members:
 {: .group-section-title }
