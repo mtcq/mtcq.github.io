@@ -81,4 +81,4 @@ nav: true
 
 ----------------------------
 
-Teaching activities before I joined Sorbonne University can be found in my [detailed CV](/assets/pdf/cvMTQ.pdf).	
+Teaching activities before I joined Sorbonne University can be found in my [detailed CV]({{ '/assets/CV/cvMTQ.pdf' | relative_url }}).

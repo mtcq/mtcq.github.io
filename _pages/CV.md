@@ -6,7 +6,7 @@ nav: true
 ---
 
 
-You can find both the [short version](/assets/pdf/cvMTQ_short.pdf) and the [long version](/assets/pdf/cvMTQ.pdf) of my CV.
+You can find both the [short version]({{ '/assets/CV/cvMTQ_short.pdf' | relative_url }}) and the [long version]({{ '/assets/CV/cvMTQ.pdf' | relative_url }}) of my CV.
 
 #### Current Employment:
 
@@ -41,7 +41,7 @@ Funding:  [JSPS postdoctoral fellowship](https://www.jsps.go.jp/english/e-fellow
 
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
 **Habilitation in Computer Science [HDR]**, [Sorbonne University](https://www.sorbonne-universite.fr), Paris, France, (Jan 2025) \\
-Habilitation Thesis: [Quantum information processing via higher-order operations](/assets/pdf/HDR_MTQ_final_version.pdf)	 
+Habilitation Thesis: [Quantum information processing via higher-order operations]({{ '/assets/thesis/HDR_MTQ_final_version.pdf' | relative_url }})
 
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
 **PhD in Physics**,  [University of Geneva](https://www.unige.ch/), Geneva, Switzerland, (Oct 2012 -- Sep 2016) \\
