@@ -12,7 +12,7 @@
   Marco Túlio  Quintino
 
 
-  | blog
+  | group
 
 </title>
 <meta name="description" content="Personal webpage of Marco Túlio Quintino
@@ -24,8 +24,8 @@
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://mtcq.github.io/blog/index.html" />
-<meta property="og:description" content="blog" />
+<meta property="og:url" content="https://mtcq.github.io/group/" />
+<meta property="og:description" content="group" />
 <meta property="og:image" content="" />
 
 
@@ -43,7 +43,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌠</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://mtcq.github.io/blog/">
+<link rel="canonical" href="https://mtcq.github.io/group/">
 
 
 <!-- Dark Mode -->
@@ -97,8 +97,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/CV/">
                 CV
@@ -120,9 +118,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/group/">
                 group
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -187,8 +187,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -207,119 +207,181 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">group</h1>
+    <p class="post-description">Current and former members of my research group.</p>
+  </header>
 
+  <article>
+    <style>
+  .group-gallery figure {
+    margin-bottom: 0;
+  }
 
-  <ul class="post-list">
+  .group-gallery picture {
+    aspect-ratio: 3 / 2;
+    display: block;
+    overflow: hidden;
+  }
+
+  .group-gallery img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .group-section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+</style>
+
+<div class="row mt-3 group-gallery">
+  <div class="col-md-6 mb-3 mb-md-0">
     
 
-    
-    
-    
+<figure>
+
+  <picture>
     
 
-    <li>
-      <h3><a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta"> 3 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/group1_web.jpg" alt="Research group posing in front of a whiteboard." data-zoomable="">
 
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
+  </picture>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
 
+</figure>
 
+  </div>
+  <div class="col-md-6">
+    
+
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/group2_web.jpg" alt="Research group outdoors under a rainbow umbrella." data-zoomable="">
+
+  </picture>
+
+  
+
+</figure>
+
+  </div>
+</div>
+<div class="caption">
+  The group in June 2026, pictures taken by <a href="https://lip6.fr/Camiel.Meijer" target="_blank" rel="noopener noreferrer">Camiel Meijer</a>.
+</div>
+
+<h2 class="group-section-title" id="current-members">Current members:</h2>
+
+<h3 id="postdoctoral-researcher">Postdoctoral researcher</h3>
+
+<ul>
+  <li>
+<strong><a href="https://scholar.google.com/citations?user=FqSc_4AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Carlos Vieira</a></strong> (August 2026–present)
+Research interests: quantum information, quantum correlations, quantum foundations, and Bell nonlocality.</li>
+</ul>
+
+<h3 id="phd-students">PhD students</h3>
+
+<ul>
+  <li>
+    <p><strong><a href="https://lip6.fr/Polina.Chernyshova" target="_blank" rel="noopener noreferrer">Polina Chernyshova</a></strong> (December 2025–present)
+Co-supervised with <a href="https://www.s.u-tokyo.ac.jp/en/people/murao_mio/" target="_blank" rel="noopener noreferrer">Mio Murao</a> (The University of Tokyo, Tokyo, Japan).</p>
+  </li>
+  <li>
+    <p><strong><a href="https://lip6.fr/Mariia.Kvashchuk" target="_blank" rel="noopener noreferrer">Mariia Kvashchuk</a></strong> (November 2025–present)
+Co-supervised with <a href="https://www.nii.ac.jp/en/faculty/informatics/soeda_akihito/" target="_blank" rel="noopener noreferrer">Akihito Soeda</a> (NII, Tokyo, Japan).</p>
+  </li>
+  <li>
+    <p><strong><a href="https://lip6.fr/Lucas.Porto" target="_blank" rel="noopener noreferrer">Lucas Porto</a></strong> (April 2025–present)
+Co-supervised with <a href="https://www.walschaers.com/" target="_blank" rel="noopener noreferrer">Mattia Walschaers</a> (Sorbonne University, Paris, France)</p>
+  </li>
+  <li>
+    <p><strong><a href="https://lip6.fr/Vanessa.Brzic" target="_blank" rel="noopener noreferrer">Vanessa Brzić</a></strong> (October 2023–present)</p>
+  </li>
+</ul>
+
+<h3 id="masters-student">Master’s student</h3>
+
+<ul>
+  <li>
+<strong><a href="https://lip6.fr/Kristin.Sundal-Lien" target="_blank" rel="noopener noreferrer">Kristin Sundal Lien</a></strong> (September 2025–August 2026)</li>
+</ul>
+
+<h2 class="group-section-title mt-5" id="former-students">Former students:</h2>
+
+<h3 id="phd-co-supervision">PhD co-supervision</h3>
+
+<ul>
+  <li>
+    <p><strong>Marcello Nery</strong> (June 2017–January 2022)
+<em>Non-classical common-cause and direct-cause</em><br>
+Main supervisor: <a href="https://www.fisica.ufmg.br/professores/reinaldo-oliveira-vianna/" target="_blank" rel="noopener noreferrer">Reinaldo Oliveira Vianna</a> (Federal University of Minas Gerais).</p>
+  </li>
+  <li>
+    <p><strong><a href="https://orcid.org/0000-0002-2257-115X" target="_blank" rel="noopener noreferrer">Qingxiuxiong Dong</a></strong> (January 2018–March 2021)
+<em>Quantum algorithms for higher-order quantum transformations of universal unitary operations</em><br>
+Main supervisor: <a href="https://www.s.u-tokyo.ac.jp/en/people/murao_mio/" target="_blank" rel="noopener noreferrer">Mio Murao</a> (University of Tokyo).</p>
+  </li>
+</ul>
+
+<h3 id="masters-student-co-supervision">Master’s student co-supervision</h3>
+
+<ul>
+  <li>
+    <p><strong>Wataru Yokojima</strong> (July 2018–July 2020)
+<em>Consequences of preserving reversibility in quantum superchannels</em><br>
+Main supervisor:  <a href="https://www.s.u-tokyo.ac.jp/en/people/murao_mio/" target="_blank" rel="noopener noreferrer">Mio Murao</a> (University of Tokyo).</p>
+  </li>
+  <li>
+    <p><strong><a href="https://orcid.org/0000-0002-2257-115X" target="_blank" rel="noopener noreferrer">Qingxiuxiong Dong</a></strong> (June 2017–January 2018)
+<em>Quantum implementability of maps and supermaps</em><br>
+Main supervisor:  <a href="https://www.s.u-tokyo.ac.jp/en/people/murao_mio/" target="_blank" rel="noopener noreferrer">Mio Murao</a> (University of Tokyo).</p>
+  </li>
+</ul>
+
+<h3 id="masters-interns">Master’s interns</h3>
+
+<ul>
+  <li>
+    <p><strong><a href="https://qi.lip6.fr/people/loic-divry-kennedy/" target="_blank" rel="noopener noreferrer">Loïc Divry-Kennedy</a></strong> (February–August 2025)
+<em>Discriminating qubit states and channels from any finite group</em></p>
+  </li>
+  <li>
+    <p><strong><a href="https://qi.lip6.fr/people/charbel-eid/" target="_blank" rel="noopener noreferrer">Charbel Eid</a></strong> (April–June 2023; March–September 2025)
+<em>Optimal discrimination between quantum measurements and quantum instruments</em></p>
+  </li>
+  <li>
+    <p><strong><a href="https://scholar.google.ca/citations?user=os1fWC4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Yuki Koizumi</a></strong> (February–March 2024)
+<em>Equivalence between unitary estimation and deterministic port-based teleportation</em></p>
+  </li>
+  <li>
+    <p><strong><a href="https://qi.lip6.fr/people/shijun-zhang/" target="_blank" rel="noopener noreferrer">Shijun Zhang</a></strong> (April–June 2023; January–April 2024)
+<em>Perfect discrimination of unitary operations when k calls are available</em></p>
+  </li>
+  <li>
+    <p><strong><a href="https://qi.lip6.fr/people/ethan-obadia/" target="_blank" rel="noopener noreferrer">Ethan Obadia</a></strong> (April–June 2023)
+<em>Quantum channel discrimination with partially entangled states</em></p>
+  </li>
+</ul>
+
+<h3 id="visiting-phd-student">Visiting PhD student</h3>
+
+<ul>
+  <li>
+<strong><a href="https://www.uu.se/en/contact-and-organisation/staff?query=N25-2699" target="_blank" rel="noopener noreferrer">Ties Ohst</a></strong> (March–April 2024)
+<em>Quantum memory in causally ordered processes of universal unitary operations</em>
+Hosted during a PhD research visit; supervised by <a href="https://www.uni-siegen.de/en/node/864" target="_blank" rel="noopener noreferrer">Otfried Gühne</a> (University of Siegen).</li>
+</ul>
+
+  </article>
 
 </div>
 
@@ -331,7 +393,7 @@
 <footer class="fixed-bottom">
   <div class="container mt-0">
     <!-- (I don't like copywrite) &copy; Copyright 2026 Marco Túlio  Quintino.-->
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
     
     
