@@ -4,6 +4,7 @@ permalink: /talk/
 title: talks
 description: Here you may find slides and videos from some talks I have presented. A complete list of all talks may be found in my CV.
 nav: true
+nav_order: 4
 ---
 <div class="news">
   {% if site.talks %}

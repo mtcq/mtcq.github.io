@@ -3,6 +3,7 @@ layout: page
 permalink: /music/
 title: music
 nav: true
+nav_order: 7
 ---
 
 Outside quantum information, music is one of my main interests. I enjoy discovering music across different genres, curating playlists, and preparing mixes.

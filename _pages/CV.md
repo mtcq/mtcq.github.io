@@ -3,10 +3,11 @@ layout: page
 permalink: /CV/
 title: CV
 nav: true
+nav_order: 2
 ---
 
 
-You can find both the [short version]({{ '/assets/CV/cvMTQ_short.pdf' | relative_url }}) and the [long version]({{ '/assets/CV/cvMTQ.pdf' | relative_url }}) of my CV.
+You can find both the [short version]({{ '/assets/CV/cvMTQ-short.pdf' | relative_url }}) and the [long version]({{ '/assets/CV/cvMTQ-long.pdf' | relative_url }}) of my CV.
 
 #### Current Employment:
 

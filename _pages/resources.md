@@ -3,6 +3,7 @@ layout: page
 permalink: /resources/
 title: resources
 nav: true
+nav_order: 6
 description: Here are some resources for learning quantum information, from introductory material to more specialised topics.
 ---
 

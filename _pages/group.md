@@ -3,6 +3,7 @@ layout: page
 permalink: /group/
 title: group
 nav: true
+nav_order: 1
 description: Current and former members of my research group.
 ---
 
