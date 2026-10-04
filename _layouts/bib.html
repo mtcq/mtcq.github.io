@@ -72,7 +72,7 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        {{{entry.journal}} <b>{{entry.volume}}</b>, {{entry.pages}} ({{entry.year}})
+        {{ entry.journal }}{% if entry.volume %} <b>{{ entry.volume }}</b>{% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}{% if entry.year %} ({{ entry.year }}){% endif %}{% if entry.note %}. {{ entry.note }}{% endif %}
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
       {% endif %}
