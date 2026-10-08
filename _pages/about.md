@@ -25,3 +25,12 @@ All my scientific papers are available on [arXiv](https://arxiv.org/a/quintino_m
 Interested in learning more about quantum information and topics related to my research? Please check the [resources page]({{ '/resources/' | relative_url }}).
 
 Interested in joining our group? Questions or comments about my work? Contact me at [Marco.Quintino@lip6.fr](mailto:Marco.Quintino@lip6.fr) or [Marco.Quintino@sorbonne-universite.fr](mailto:Marco.Quintino@sorbonne-universite.fr).
+
+My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is **3**:
+
+
+Marco Túlio Quintino →¹ [Sebastian Pokutta](https://www.pokutta.com/) →² [Prasad Tetali](https://tetali.github.io/) →³ [Paul Erdős](https://users.renyi.hu/~p_erdos/)
+
+1. [*Measurement incompatibility and quantum steering via linear programming*](https://quantum-journal.org/papers/q-2026-06-19-2141/), Quantum **10**, 2141 (2026).
+2. [*Approximation and online algorithms for multidimensional bin packing: A survey*](https://doi.org/10.1016/j.cosrev.2016.12.001), Computer Science Review **24**, 63–79 (2017).
+3. [*Representations of integers as the sum of k terms*](https://doi.org/10.1002/rsa.3240010302), Random Structures & Algorithms **1**, 245–261 (1990).
